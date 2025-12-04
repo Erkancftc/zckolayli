@@ -158,8 +158,7 @@ h6{
 	max-width:1200px;
 	padding:0px 15px;
 	margin:0 auto;
-	display: flex;
-    justify-content: space-between;
+	
 }
 
 .medium-container{
@@ -584,9 +583,11 @@ img{
 	position:relative;
 }
 
-.main-header .header-upper .auto-container{
+.main-header .header-upper .auto-container,
+.sticky-header .auto-container{
 	 max-width: 1200px;
-    
+    display: flex;
+	justify-content: space-between;
 }
 
 .main-header .header-upper .upper-right{
