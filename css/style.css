@@ -158,6 +158,8 @@ h6{
 	max-width:1200px;
 	padding:0px 15px;
 	margin:0 auto;
+	display: flex;
+    justify-content: space-between;
 }
 
 .medium-container{
@@ -583,7 +585,8 @@ img{
 }
 
 .main-header .header-upper .auto-container{
-	max-width:1400px;
+	 max-width: 1200px;
+    
 }
 
 .main-header .header-upper .upper-right{
@@ -2126,11 +2129,16 @@ img{
 }
 
 .practice-block .inner-box{
-	position:relative;
-	text-align:center;
-	padding:40px 20px;
-	background-color:#ffffff;
-	border-right:1px solid #e1e1e1;
+	position: relative;
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #ffffff;
+    border-right: 1px solid #e1e1e1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    padding-bottom: 20px;
 }
 
 .practice-block .inner-box:before{
