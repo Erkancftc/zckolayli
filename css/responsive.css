@@ -1058,7 +1058,7 @@
 	
 	.main-header .header-upper .logo-box .logo{
 		transform:scale(0.8,0.8);
-		margin-left:-20px;
+		/* margin-left:-20px; */
 	}
 	
 	.blog-detail .inner-box .lower-content blockquote .quote-text{
