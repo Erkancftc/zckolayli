@@ -494,7 +494,7 @@ img{
 .sec-title h2{
     color:#00204c;
 	padding-bottom:20px;
-	text-transform:uppercase; 
+	text-transform:capitalize; 
 }
 
 .sec-title h2:before{
@@ -1459,6 +1459,8 @@ img{
 	-ms-transition-delay: 900ms;
 	-o-transition-delay: 900ms;
 	transition-delay: 900ms;
+	max-width: 1500px;
+	white-space: normal;
 }
 
 .banner-section .content-column .btns-box{
