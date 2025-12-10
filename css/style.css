@@ -2963,7 +2963,7 @@ img{
 	color:#00204c;
 	font-size:40px;
 	margin-bottom:22px;
-	text-transform:uppercase;
+	text-transform:capitalize;
 }
 
 /***
@@ -4127,16 +4127,43 @@ img{
 ====================================================================
 
 ***/
+.wrapper {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+	gap: 2em;
+	/* hem row hem column */
+}
 
+.card {
+	/* kartların boyu otomatik eşitlenir zaten */
+}
+
+.card .inner-box {
+	height: 100%;
+}
+
+}
 .contact-info-section{
 	position:relative;
 	padding:100px 0px 70px;
 	background-color:#ffffff;
+	
+}
+/* Her sütun flex olsun */
+.info-block {
+	display: flex;
+}
+
+/* Kartın kendisi sütunun tamamını doldursun */
+.info-block .inner-box {
+	flex: 1;
+	height: 100%;
 }
 
 .info-block{
 	position:relative;
 	margin-bottom:30px;
+	
 }
 
 .info-block .inner-box{
@@ -4152,22 +4179,26 @@ img{
 	font-size:60px;
 	line-height:1em;
 	margin-bottom:28px;
+	
 }
 
 .info-block .inner-box h5{
 	color:#00204c;
 	margin-bottom:15px;
 	text-transform:uppercase;
+	
 }
 
 .info-block .inner-box .text{
 	position:relative;
 	color:#575d6e;
 	font-size:18px;
+	
 }
 
 .info-block .inner-box .info-list{
 	position:relative;
+	
 }
 
 .info-block .inner-box .info-list li{
