@@ -3342,7 +3342,7 @@ img{
 
 .case-section .content-column .inner-column{
 	position:relative;
-	padding:90px 40px 50px;
+	padding:30px 40px 50px;
 }
 
 .case-section .content-column .text-box{
@@ -3350,7 +3350,7 @@ img{
 	color:#e1a122;
 	font-size:22px;
 	line-height:1.4em;
-	padding:25px 25px;
+	padding:32px 25px;
 	overflow:hidden;
 	border:1px solid #e1a122;
 	font-family: 'Bellefair', serif;
