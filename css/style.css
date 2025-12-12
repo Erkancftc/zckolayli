@@ -768,7 +768,7 @@ img{
 	font-weight:600;
 	padding:33px 0px;
 	font-size:18px;
-	text-transform: uppercase;
+	text-transform: capitalize;
 	transition:all 500ms ease;
 	-moz-transition:all 500ms ease;
 	-webkit-transition:all 500ms ease;
