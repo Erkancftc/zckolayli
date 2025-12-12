@@ -60,7 +60,7 @@
 }
 .owl-carousel.owl-loaded {
   display: block;
-  max-height: 900px;
+  max-height: 850px;
 }
 .owl-carousel.owl-loading {
   opacity: 0;
