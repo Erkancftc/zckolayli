@@ -1,0 +1,79 @@
+{
+  "defaultPage": "corporate_law",
+  "pages": [
+    {
+      "slug": "sirketler-hukuku",
+      "pageTitle": {
+        "bgImage": "images/corporate-banner.jpg",
+        "h1": "ŞİRKETLER HUKUKU",
+        "breadcrumb": [
+          "Ana Sayfa",
+          "ŞİRKETLER HUKUKU"
+        ]
+      },
+      "servicesDetail": {
+        "heroImage": {
+          "src": "images/corporate.jpg",
+          "alt": "ŞİRKETLER HUKUKU"
+        },
+        "heading": "Kurumsal Yaşamın Temelİnde Hukukİ Bİlgelİk",
+        "paragraphHtml": "Kurumsal düzenin hâkim olduğu her alanda, şirketlerin sağlıklı bir şekilde varlık göstermesi ancak hukukla uyum içinde\n\t\t\t\t\tilerlemeleriyle mümkündür. Günlük faaliyetlerde özgürce karar verebilmek, girişimciliğin ve ticari hayatın en değerli\n\t\t\t\t\tzevklerinden biridir; ancak bu özgürlük, zamanı geldiğinde yerini hukuki yükümlülüklere bırakmak zorundadır. Zira bazı\n\t\t\t\t\tanlarda, şirket menfaatini korumak için tercih edilen yoldan geri dönmek, riskli bir zevki ertelemek veya disiplin\n\t\t\t\t\tgerektiren bir sorumluluğu üstlenmek zorunludur. <br><br>\n\t\t\t\t\t\n\t\t\t\t\tBu nedenle, kurumsal hayatta kısa vadeli kazançların cazibesine kapılarak hukuki öngörüyü ihmal edenler, sonunda daha\n\t\t\t\t\tağır sonuçlarla yüzleşir. Gerekli incelemeleri yapmaktan kaçanlar, sorumluluklarını zamanında yerine getirmeyenler veya\n\t\t\t\t\tşirketin uzun vadeli istikrarını tehlikeye atanlar, kendi açılarından değil, tüm paydaşlar açısından sorun yaratırlar.\n\t\t\t\t\t<br><br>\n\t\t\t\t\tKurumsal hukuk, aceleci davranışları değil; muhakemeyi, planlamayı ve ölçülü adım atmayı onaylar. Uyumsuzluğun getirdiği\n\t\t\t\t\tsıkıntı, kaçınılamayacak bir gerçektir; ancak bu sıkıntı, görevlerin doğru şekillendirilmesiyle gelecekteki\n\t\t\t\t\tbelirsizlikleri yok eder. Böylece şirketler, yalnızca bugünün değil yarının da güvenli zeminini oluşturur.",
+        "listColumns": [
+          [
+            "Hukuk, hiçbir şeyi amaçsızca reddetmez; yalnızca gerekli olanı vurgular.",
+            "Boşluk istemez; çünkü boşluk risk üretir."
+          ],
+          [
+            "Sorumluluktan kaçınmaz; çünkü sorumluluk kurumsal hafızayı oluşturur.",
+            "Kuralı kınamaz; çünkü kural düzeni doğurur."
+          ],
+          [
+            "Sürekliliği inkâr etmez; çünkü ticari yaşam kesintiyi değil devamlılığı ödüllendirir.",
+            "Kurumsal hukukun özü, şirketin yalnızca bugünkü değil yarınki varlığını da güvence altına alır."
+          ],
+          [
+            "Şeffaflıktan kaçınmaz; çünkü bilgi saklandıkça risk büyür, açıklık ise tüm taraflara adil zemini sunar.",
+            "Pay sahiplerinden çalışanlara kadar herkes, aynı gerçeklikte buluştuğunda kurum güç kazanır."
+          ]
+        ]       
+      }
+    },
+    
+{
+  "slug": "ticaret-hukuku",
+  "pageTitle": {
+    "bgImage": "images/trade-banner.jpg",
+    "h1": "TİCARET HUKUKU",
+    "breadcrumb": [
+      "Ana Sayfa",
+      "TİCARET HUKUKU"
+    ]
+  },
+  "servicesDetail": {
+    "heroImage": {
+      "src": "images/corporate.jpg",
+      "alt": "TİCARET HUKUKU"
+    },
+    "heading": "Tİcarİ Hayatta Dengenİn Adı: Hukukİ Güvence",
+    "paragraphHtml": "Ticari hayat hızla akar; sözleşmeler imzalanır, alacaklar doğar, teslimatlar yapılır ve riskler çoğu zaman görünmez şekilde birikir. Bu akışın sağlıklı kalması, tarafların hak ve yükümlülüklerinin net biçimde tanımlanmasına bağlıdır. Çünkü belirsizlik; gecikme, ihtilaf ve mali kayıp üretir. <br><br>\n\nTicaret hukuku, sadece sorun çıktığında devreye giren bir “tamir takımı” değildir; doğru kurulduğunda, daha sorun oluşmadan sistemi stabil tutan bir altyapıdır. Sözleşme maddelerinin açık yazılması, teminatların doğru kurgulanması, ödeme vadelerinin ve teslim koşullarının netleştirilmesi; şirketin nakit akışını ve itibârını korur. <br><br>\n\nBu nedenle ticari süreçlerde ölçüsüz hız değil, kontrollü hız değerlidir. Hukuki öngörüyle ilerleyen işletme; pazarlıkta güç kazanır, uyuşmazlıkta avantaj sağlar ve büyüme dönemlerinde krizleri daha kolay absorbe eder.",
+    "listColumns": [
+      [
+        "Belirsizlik masum değildir; gecikmeyi ve maliyeti büyütür.",
+        "Netlik pazarlık gücüdür; metin güçlendikçe risk düşer."
+      ],
+      [
+        "Sözleşme, iyi niyetin yazılı hâlidir; yazılmayan her şey tartışmaya açıktır.",
+        "Teminat, güvenin sigortasıdır; doğru kurulmazsa güven tek taraflı yük olur."
+      ],
+      [
+        "Alacak yönetimi, yalnızca tahsilat değil; sürdürülebilirlik planıdır.",
+        "Ticari ihtilaflarda zaman kaybı, çoğu kez paradan daha pahalıdır."
+      ],
+      [
+        "Uyum (compliance) bir bürokrasi değil; markanın dayanıklılığıdır.",
+        "Doğru süreç; müşteriyi, tedarikçiyi ve şirketi aynı zeminde tutar."
+      ]
+    ]
+  }
+}
+]}
