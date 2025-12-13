@@ -78,8 +78,8 @@
 		//Menu Toggle Btn
 		$('.mobile-nav-toggler').on('click', function() {
 			$('body').addClass('mobile-menu-visible');
-			if (!$('.main-header .navigation.clearfix .card-payment').length) {
-  			$('.main-header .navigation.clearfix').append('<li class="card-payment"><a href="https://pos.param.com.tr/Tahsilat/Default.aspx?k=SANA_OZEL_KOD" target="_blank">Kredi Kartı İle Ödeme</a></li>');
+			if (!$('.mobile-menu .navigation.clearfix .card-payment').length) {
+  			$('.mobile-menu .navigation.clearfix').append('<li class="card-payment"><a href="https://pos.param.com.tr/Tahsilat/Default.aspx?k=SANA_OZEL_KOD" target="_blank">Kredi Kartı İle Ödeme</a></li>');
 }
 		});
 
