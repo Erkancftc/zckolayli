@@ -340,7 +340,7 @@
 	}
 	
 	.services-block-three.style-two .inner-box .content-column{
-		
+		padding-left:0px;
 	}
 	
 	.services-block-three.style-two .inner-box .image-column{
@@ -374,7 +374,7 @@
 	
 }
 
-@media only screen and (max-width: 767px){
+@media only screen and (max-width: 1022px){
 	
 	.header-upper .logo-outer {
 		position:relative;
@@ -717,6 +717,7 @@
 	
 	.main-header .btn-box{
 		margin-left:0px;
+		display: none;
 	}
 	
 	.main-header{
@@ -909,7 +910,7 @@
 	}
 	
 	.main-header .btn-box{
-		display:none;
+	display: none
 	}
 	
 	.sticky-header .mobile-nav-toggler{

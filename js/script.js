@@ -37,6 +37,7 @@
 	if($('.main-header li.dropdown ul').length){
 		$('.main-header li.dropdown').append('<div class="dropdown-btn"><span class="fa fa-angle-down"></span></div>');
 		
+		
 		//Dropdown Button
 		$('.main-header li.dropdown .dropdown-btn').on('click', function() {
 			$(this).prev('ul').slideToggle(500);
@@ -56,7 +57,8 @@
 		$('.main-header .navigation li.dropdown > a,.hidden-bar .side-menu li.dropdown > a').on('click', function(e) {
 			e.preventDefault();
 		});
-		
+
+				
 	}
 	
 	
@@ -68,7 +70,6 @@
 		var mobileMenuContent = $('.main-header .nav-outer .main-menu').html();
 		$('.mobile-menu .menu-box .menu-outer').append(mobileMenuContent);
 		$('.sticky-header .main-menu').append(mobileMenuContent);
-		
 		//Dropdown Button
 		$('.mobile-menu li.dropdown .dropdown-btn').on('click', function() {
 			$(this).toggleClass('open');
@@ -77,6 +78,9 @@
 		//Menu Toggle Btn
 		$('.mobile-nav-toggler').on('click', function() {
 			$('body').addClass('mobile-menu-visible');
+			if (!$('.mobile-menu .navigation.clearfix .card-payment').length) {
+  			$('.mobile-menu .navigation.clearfix').append('<li class="card-payment"><a href="https://pos.param.com.tr/Tahsilat/Default.aspx?k=SANA_OZEL_KOD" target="_blank">Kredi Kartı İle Ödeme</a></li>');
+}
 		});
 
 		//Menu Toggle Btn
