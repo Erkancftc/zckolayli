@@ -36,6 +36,7 @@
 	//Submenu Dropdown Toggle
 	if($('.main-header li.dropdown ul').length){
 		$('.main-header li.dropdown').append('<div class="dropdown-btn"><span class="fa fa-angle-down"></span></div>');
+		$('.main-header .navigation.clearfix').append('<li><a href="https://pos.param.com.tr/Tahsilat/Default.aspx?k=SANA_OZEL_KOD" target="_blank">Kredi Kartı İle Ödeme</a></li>');
 		
 		//Dropdown Button
 		$('.main-header li.dropdown .dropdown-btn').on('click', function() {
@@ -56,7 +57,8 @@
 		$('.main-header .navigation li.dropdown > a,.hidden-bar .side-menu li.dropdown > a').on('click', function(e) {
 			e.preventDefault();
 		});
-		
+
+				
 	}
 	
 	
@@ -68,7 +70,7 @@
 		var mobileMenuContent = $('.main-header .nav-outer .main-menu').html();
 		$('.mobile-menu .menu-box .menu-outer').append(mobileMenuContent);
 		$('.sticky-header .main-menu').append(mobileMenuContent);
-		
+
 		//Dropdown Button
 		$('.mobile-menu li.dropdown .dropdown-btn').on('click', function() {
 			$(this).toggleClass('open');
@@ -77,6 +79,7 @@
 		//Menu Toggle Btn
 		$('.mobile-nav-toggler').on('click', function() {
 			$('body').addClass('mobile-menu-visible');
+			
 		});
 
 		//Menu Toggle Btn

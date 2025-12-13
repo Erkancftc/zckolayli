@@ -8271,3 +8271,6 @@ a.text-dark:hover {
     min-height: 40px;
   }
 }
+.z-9{
+  z-index : 9 !important;
+}
