@@ -156,7 +156,10 @@
 		margin:0px;
 		text-align:left;
 	}
-	
+	.main-header .btn-box{
+		display: block;
+		width: max-content;
+	}
 	.page-title{
 		padding-top:120px;
 	}
@@ -167,6 +170,7 @@
 	
 	.main-header .outer-box{
 		display:block;
+		align-self: center;
 	}
 	
 	.main-header .options-box{
@@ -193,6 +197,7 @@
 		width:100%;
 		padding-bottom:0px;
 		text-align:center;
+		align-self: center;
 	}
 	
 	.main-header{
