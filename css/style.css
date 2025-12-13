@@ -1201,7 +1201,9 @@ img{
 	color: #404040;
 	text-transform: capitalize;
 }
-
+.mobile-menu .navigation .card-payment > a{
+	color: #e1a122;
+}
 .mobile-menu .navigation li:hover > a,
 .mobile-menu .navigation li.current > a{
 	color:#111111;

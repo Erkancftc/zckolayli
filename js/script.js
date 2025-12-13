@@ -36,7 +36,7 @@
 	//Submenu Dropdown Toggle
 	if($('.main-header li.dropdown ul').length){
 		$('.main-header li.dropdown').append('<div class="dropdown-btn"><span class="fa fa-angle-down"></span></div>');
-		$('.main-header .navigation.clearfix').append('<li><a href="https://pos.param.com.tr/Tahsilat/Default.aspx?k=SANA_OZEL_KOD" target="_blank">Kredi Kartı İle Ödeme</a></li>');
+		$('.main-header .navigation.clearfix').append('<li class="card-payment"><a href="https://pos.param.com.tr/Tahsilat/Default.aspx?k=SANA_OZEL_KOD" target="_blank">Kredi Kartı İle Ödeme</a></li>');
 		
 		//Dropdown Button
 		$('.main-header li.dropdown .dropdown-btn').on('click', function() {
