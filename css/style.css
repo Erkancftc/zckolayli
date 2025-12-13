@@ -619,7 +619,7 @@ img{
 .main-header .btn-box{
 	position:relative;
 	float:left;
-	margin-left:20px;
+	margin : 0;
 }
 
 .main-header .phone-box{
@@ -735,6 +735,7 @@ img{
 	z-index:999;
 	opacity:1;
 	visibility:visible;
+	max-height: 4.5rem;
 	-ms-animation-name: fadeInDown;
 	-moz-animation-name: fadeInDown;
 	-op-animation-name: fadeInDown;
@@ -3452,6 +3453,7 @@ img{
 	text-transform:uppercase;
 }
 
+.services-block-two .inner-box h5,
 .services-block-two .inner-box h5 a{
 	position:relative;
 	color:#00204c;
