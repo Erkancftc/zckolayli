@@ -327,7 +327,7 @@ img{
 	background:none;
 	border-radius:0px;
 	padding: 12px 35px 12px;
-	text-transform: uppercase;
+	text-transform: capitalize;
 	background-color:#e1a122;
 }
 
@@ -3836,7 +3836,7 @@ img{
 	position:relative;
 	color:#00204c;
 	padding-bottom:20px;
-	text-transform:uppercase;
+	text-transform:inherit;
 }
 
 .services-detail-section .lower-content h2:before{
