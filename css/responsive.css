@@ -192,7 +192,6 @@
 		margin: 0px;
 		width:100%;
 		padding-bottom:0px;
-		text-align:center;
 	}
 	
 	.main-header{
@@ -671,7 +670,7 @@
 	.nav-outer .mobile-nav-toggler{
 		display: block;
 		margin: 0;
-		padding: 8px 0;
+		padding: 1rem;
 		margin-left: 20px;
 	}
 	
