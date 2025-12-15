@@ -141,7 +141,7 @@
 {
   "slug": "ticaret-hukuku",
   "pageTitle": {
-    "bgImage": "images/trade-banner.jpg",
+    "bgImage": "images/corporate-banner.jpg",
     "h1": "TİCARET HUKUKU",
     "breadcrumb": [
       "Ana Sayfa",
@@ -153,7 +153,7 @@
       "src": "images/corporate.jpg",
       "alt": "TİCARET HUKUKU"
     },
-    "heading": "Tİcarİ Hayatta Dengenİn Adı: Hukukİ Güvence",
+    "heading": "Ticari Hayatta Dengenin Adı: Hukuki Güvence",
     "paragraphHtml": "Ticari hayat hızla akar; sözleşmeler imzalanır, alacaklar doğar, teslimatlar yapılır ve riskler çoğu zaman görünmez şekilde birikir. Bu akışın sağlıklı kalması, tarafların hak ve yükümlülüklerinin net biçimde tanımlanmasına bağlıdır. Çünkü belirsizlik; gecikme, ihtilaf ve mali kayıp üretir. <br><br>\n\nTicaret hukuku, sadece sorun çıktığında devreye giren bir “tamir takımı” değildir; doğru kurulduğunda, daha sorun oluşmadan sistemi stabil tutan bir altyapıdır. Sözleşme maddelerinin açık yazılması, teminatların doğru kurgulanması, ödeme vadelerinin ve teslim koşullarının netleştirilmesi; şirketin nakit akışını ve itibârını korur. <br><br>\n\nBu nedenle ticari süreçlerde ölçüsüz hız değil, kontrollü hız değerlidir. Hukuki öngörüyle ilerleyen işletme; pazarlıkta güç kazanır, uyuşmazlıkta avantaj sağlar ve büyüme dönemlerinde krizleri daha kolay absorbe eder.",
     "listColumns": [
       [
