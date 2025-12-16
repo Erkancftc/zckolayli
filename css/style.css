@@ -582,6 +582,93 @@ img{
 .main-header .header-upper{
 	position:relative;
 }
+.header-upper {
+  width: 100%;
+}
+
+.header-flex{
+  display: grid !important;
+  grid-template-columns: 1fr minmax(0, 1200px) 1fr !important;
+  align-items: center;
+  padding: 0 40px;
+}
+
+/* SOL: Logo */
+.header-left {
+  display: flex;
+  justify-content: flex-end;
+}
+
+/* ORTA: Menü */
+.header-center,
+.header-center nav.main-menu,
+.header-center .navbar-collapse{
+  width: 100% !important;
+}
+.header-center ul.navigation{
+  width: fit-content !important;
+  margin: 0 auto !important;
+  display: flex !important;
+  justify-content: center !important;
+  gap: 48px; /* istediğin ferahlık */
+  align-items: center;
+}
+/* 4) LI'ları float/inline-block’tan kurtar */
+.header-center ul.navigation > li{
+  float: none !important;
+  display: block !important;
+}
+
+/* (Opsiyonel) Menü öğeleri aşırı açılırsa biraz kontrol */
+
+.header-center .navigation {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+/* SAĞ: Buton */
+.header-right {
+  display: flex;
+  justify-content: flex-start;
+}
+
+/* Ödeme butonu */
+.payment-btn {
+  background: #f4b000;
+  color: #fff;
+  padding: 12px 22px;
+  font-weight: 600;
+  font-size: 13px;
+  white-space: nowrap;
+}
+.sticky-header .main-menu .navigation > li .lawyer-name,
+.lawyer-name{
+  color: #e1a122 !important;
+  margin-right: 16px;
+  text-align-last: start;
+  font-family: 'Bellefair', serif;
+  padding: 0;
+}
+.lawyer-name:hover{
+	color: #ffffff !important;
+}
+.sticky-header .logo{
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.sticky-header .logo img{
+  max-height: 40px;
+}
+
+.sticky-header .logo .site-title,
+.sticky-header .logo .logo-text{
+  font-size: 15px;
+  font-weight: 600;
+  color: #000;
+}
 
 .main-header .header-upper .auto-container,
 .sticky-header .auto-container{
