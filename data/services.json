@@ -6,10 +6,7 @@
       "pageTitle": {
         "bgImage": "images/corporate-banner.jpg",
         "h1": "ŞİRKETLER HUKUKU",
-        "breadcrumb": [
-          "Ana Sayfa",
-          "ŞİRKETLER HUKUKU"
-        ]
+        "breadcrumb": ["Ana Sayfa", "ŞİRKETLER HUKUKU"]
       },
       "servicesDetail": {
         "heroImage": {
@@ -35,177 +32,161 @@
             "Şeffaflıktan kaçınmaz; çünkü bilgi saklandıkça risk büyür, açıklık ise tüm taraflara adil zemini sunar.",
             "Pay sahiplerinden çalışanlara kadar herkes, aynı gerçeklikte buluştuğunda kurum güç kazanır."
           ]
-        ]       
+        ]
       }
     },
-    
-{
-  "slug": "aile-davalari",
-  "pageTitle": {
-    "bgImage": "images/ailebanner.jpg",
-    "h1": "AİLE DAVALARI",
-    "breadcrumb": [
-      "Ana Sayfa",
-      "AİLE DAVALARI"
-    ]
-  },
-  "servicesDetail": {
-    "heroImage": {
-      "src": "images/aile.jpg",
-      "alt": "AİLE DAVALARI"
+
+    {
+      "slug": "aile-davalari",
+      "pageTitle": {
+        "bgImage": "images/ailebanner.jpg",
+        "h1": "AİLE DAVALARI",
+        "breadcrumb": ["Ana Sayfa", "AİLE DAVALARI"]
+      },
+      "servicesDetail": {
+        "heroImage": {
+          "src": "images/aile.jpg",
+          "alt": "AİLE DAVALARI"
+        },
+        "heading": "Aile Hukukunun Temelinde Denge ve Hukuki İhtimam",
+        "paragraphHtml": "Aile hukuku, hukukun en hassas alanlarından biridir; çünkü burada yalnızca haklar değil, insanların yaşam düzeni, duygusal dünyası, gelecek planları ve kimi zaman çocukların kaderi söz konusudur. Bu nedenle aile davalarında doğru yaklaşım, yalnızca hukuki çerçeveyi bilmek değil; süreci öngörülebilir, güvenli ve saygılı bir zemine oturtmaktır. Zira aile içinde yaşanan bir anlaşmazlık, çoğu zaman bir hukuki ihtilaftan çok daha fazlasını taşır: Geçmişin alışkanlıklarını, bugün yaşanan belirsizlikleri ve geleceğe dair kaygıları beraberinde getirir.\n\t\t\t\t\t<br><br>\n\t\t\t\t\tAceleyle verilen kararlar, öfkeyle yapılan başvurular veya yeterince değerlendirilmemiş talepler, tarafların uzun vadeli haklarını zedeleyebilir. Boşanma sürecinde mal paylaşımının ayrıntılarını göz ardı edenler, velayet konusunda duygusal baskının yönlendiriciliğine kapılanlar, nafaka ve tazminat taleplerini bilinçli bir hesaplama olmaksızın belirleyenler, sonrasında daha ağır sonuçlarla karşılaşabilir. Aile davaları, kısa vadeli bir rahatlamadan ziyade uzun vadeli bir düzen inşa etmeyi gerektirir.\n\t\t\t\t\t<br><br>\n\t\t\t\t\tAile hukuku, tarafları çatışmanın merkezine değil; çözümün çerçevesine yerleştirir. Her aile dinamiği benzersizdir; bu nedenle her davanın kendine özgü bir hikâyesi, delilleri, beklentileri ve hukuki yükleri vardır. Uyuşmazlık kaçınılmaz olabilir; ancak doğru hukuki özen, belirsizliği azaltır, duygusal gerginliği yönetir ve hakkaniyetli bir sonuca giden yolu açar. Böylece aileler, yalnızca bugün için değil, gelecekte de güvenli bir düzen kurma imkânı bulur.",
+        "listColumns": [
+          [
+            "Aile hukuku, duygusal tepkileri değil; çölçülü ve düşünülmüş adımları esas alır."
+          ],
+          ["Netlik pazarlık gücüdür; metin güçlendikçe risk düşer."],
+          [
+            "Mal paylaşımı, yüzeysel değil; matematiksel ve hukuki doğrulukla değerlendirilir."
+          ],
+          [
+            "Nafaka ve tazminat, kırgınlıkların değil; ekonomik gerçeklerin ışığında belirlenir."
+          ]
+        ]
+      }
     },
-    "heading": "Aile Hukukunun Temelinde Denge ve Hukuki İhtimam",
-    "paragraphHtml": "Aile hukuku, hukukun en hassas alanlarından biridir; çünkü burada yalnızca haklar değil, insanların yaşam düzeni, duygusal dünyası, gelecek planları ve kimi zaman çocukların kaderi söz konusudur. Bu nedenle aile davalarında doğru yaklaşım, yalnızca hukuki çerçeveyi bilmek değil; süreci öngörülebilir, güvenli ve saygılı bir zemine oturtmaktır. Zira aile içinde yaşanan bir anlaşmazlık, çoğu zaman bir hukuki ihtilaftan çok daha fazlasını taşır: Geçmişin alışkanlıklarını, bugün yaşanan belirsizlikleri ve geleceğe dair kaygıları beraberinde getirir.\n\t\t\t\t\t<br><br>\n\t\t\t\t\tAceleyle verilen kararlar, öfkeyle yapılan başvurular veya yeterince değerlendirilmemiş talepler, tarafların uzun vadeli haklarını zedeleyebilir. Boşanma sürecinde mal paylaşımının ayrıntılarını göz ardı edenler, velayet konusunda duygusal baskının yönlendiriciliğine kapılanlar, nafaka ve tazminat taleplerini bilinçli bir hesaplama olmaksızın belirleyenler, sonrasında daha ağır sonuçlarla karşılaşabilir. Aile davaları, kısa vadeli bir rahatlamadan ziyade uzun vadeli bir düzen inşa etmeyi gerektirir.\n\t\t\t\t\t<br><br>\n\t\t\t\t\tAile hukuku, tarafları çatışmanın merkezine değil; çözümün çerçevesine yerleştirir. Her aile dinamiği benzersizdir; bu nedenle her davanın kendine özgü bir hikâyesi, delilleri, beklentileri ve hukuki yükleri vardır. Uyuşmazlık kaçınılmaz olabilir; ancak doğru hukuki özen, belirsizliği azaltır, duygusal gerginliği yönetir ve hakkaniyetli bir sonuca giden yolu açar. Böylece aileler, yalnızca bugün için değil, gelecekte de güvenli bir düzen kurma imkânı bulur.",
-    "listColumns": [
-      [
-        "Aile hukuku, duygusal tepkileri değil; çölçülü ve düşünülmüş adımları esas alır."
-      ],
-      [
-        "Netlik pazarlık gücüdür; metin güçlendikçe risk düşer."
-      ],
-      [
-        "Mal paylaşımı, yüzeysel değil; matematiksel ve hukuki doğrulukla değerlendirilir."
-      ],
-      [
-        "Nafaka ve tazminat, kırgınlıkların değil; ekonomik gerçeklerin ışığında belirlenir."
-      ]
-    ]
-  }
-},
-{
-  "slug": "gayrimenkul-davalari",
-  "pageTitle": {
-    "bgImage": "images/gayrimenkulbanner.jpg",
-    "h1": "GAYRİMENKUL DAVALARI",
-    "breadcrumb": [
-      "Ana Sayfa",
-      "GAYRİMENKUL DAVALARI"
-    ]
-  },
-  "servicesDetail": {
-    "heroImage": {
-      "src": "images/gayrimenkul.jpg",
-      "alt": "GAYRİMENKUL DAVALARI"
+    {
+      "slug": "gayrimenkul-davalari",
+      "pageTitle": {
+        "bgImage": "images/gayrimenkulbanner.jpg",
+        "h1": "GAYRİMENKUL DAVALARI",
+        "breadcrumb": ["Ana Sayfa", "GAYRİMENKUL DAVALARI"]
+      },
+      "servicesDetail": {
+        "heroImage": {
+          "src": "images/gayrimenkul.jpg",
+          "alt": "GAYRİMENKUL DAVALARI"
+        },
+        "heading": "Gayrimenkul Uyuşmazlıklarının Temelinde Hukuki Sağduyu",
+        "paragraphHtml": "Gayrimenkul, yalnızca bir taşınmazdan ibaret değildir; bireylerin ve şirketlerin ekonomik geleceğini taşıyan, kimi zaman nesiller boyunca aktarılan bir varlık alanıdır. Bu nedenle, gayrimenkul işlemlerinin güven içinde yürütülmesi, yalnızca hukuka uygun davranmakla değil, aynı zamanda hukuki öngörüyü doğru kullanmakla mümkündür. Tapu kaydındaki küçük bir eksiklik, sözleşmedeki masum görünen bir ifade, paylaşımın ertelenmiş bir detayı ya da komşuluk hakkına ilişkin ihmal edilmiş bir sınır, zaman içinde büyük hukuki çatışmalara dönüşebilir. Gayrimenkul hukukunun ağırlığı da tam burada hissedilir: Görünmeyeni görmek, ileride doğacak riskleri bugün yönetmek ve hak kaybı oluşmadan önce doğru adımı atmaktır.\n\t\t\t\t\t<br><br>\n\t\t\t\t\tBu nedenle gayrimenkul alanında kısa vadeli çözümlere güvenmek, çoğu zaman uzun vadeli zararlara kapı aralar. Satış vaadi sözleşmesini incelemeden imzalayanlar, riskli yapı tespit sürecini doğru değerlendirmeyenler, miras paylaşımında gerekli hukuki dengeyi kurmayanlar veya kira ilişkilerinde sorumluluklarını netleştirmeyenler, sonunda hukuki bir çatışmanın içinden çıkmakta zorlanabilir. Zira gayrimenkul davaları, gecikmiş bir müdahalenin maliyetini en çok hissettiren dava türlerinden biridir. Tapu iptali ve tescil, kamulaştırma, ortaklığın giderilmesi, el atmanın önlenmesi veya kira uyuşmazlıkları gibi süreçlerde, zaman kaybı yalnızca süreci değil, varlığın değerini de etkiler.\n\t\t\t\t\t<br><br>\n\t\t\t\t\tGayrimenkul hukukunun özünde acelecilik değil; ölçülülük, inceleme, doğrulama ve sabır vardır. Her taşınmazın kendine özgü bir hikâyesi, geçmişten bugüne taşıdığı hukuki yükleri ve geleceğe uzanan potansiyel riskleri bulunur. Uyuşmazlıkların ortaya çıkması kaçınılmaz olabilir; ancak doğru hukuki çalışmayla bu uyuşmazlıkların belirsizliğe dönüşmesi engellenebilir. Böylece mülk sahipleri, yatırımcılar ve tüm paydaşlar yalnızca bugünün değil, yarının da güvenli zeminini oluşturur.",
+        "listColumns": [
+          [
+            "Gayrimenkul hukuku, belirsizliği sevmez; çünkü belirsizlik mülkiyet hakkının değerini aşındırır."
+          ],
+          [
+            "Hak kaybı riskini görmezden gelmez; detaylara gösterilen özen gayrimenkulün gerçek güvenliğini sağlar."
+          ],
+          [
+            "Sözleşmeyi yalnızca bir metin olarak değil; ileride doğacak tüm hak ve yükümlülüklerin temeli olarak görür."
+          ],
+          [
+            "Tapu kaydındaki her bilgi, hukuki hafızanın bir parçasıdır; bu nedenle eksiklik değil, tutarlılık arar."
+          ]
+        ]
+      }
     },
-    "heading": "Gayrimenkul Uyuşmazlıklarının Temelinde Hukuki Sağduyu",
-    "paragraphHtml": "Gayrimenkul, yalnızca bir taşınmazdan ibaret değildir; bireylerin ve şirketlerin ekonomik geleceğini taşıyan, kimi zaman nesiller boyunca aktarılan bir varlık alanıdır. Bu nedenle, gayrimenkul işlemlerinin güven içinde yürütülmesi, yalnızca hukuka uygun davranmakla değil, aynı zamanda hukuki öngörüyü doğru kullanmakla mümkündür. Tapu kaydındaki küçük bir eksiklik, sözleşmedeki masum görünen bir ifade, paylaşımın ertelenmiş bir detayı ya da komşuluk hakkına ilişkin ihmal edilmiş bir sınır, zaman içinde büyük hukuki çatışmalara dönüşebilir. Gayrimenkul hukukunun ağırlığı da tam burada hissedilir: Görünmeyeni görmek, ileride doğacak riskleri bugün yönetmek ve hak kaybı oluşmadan önce doğru adımı atmaktır.\n\t\t\t\t\t<br><br>\n\t\t\t\t\tBu nedenle gayrimenkul alanında kısa vadeli çözümlere güvenmek, çoğu zaman uzun vadeli zararlara kapı aralar. Satış vaadi sözleşmesini incelemeden imzalayanlar, riskli yapı tespit sürecini doğru değerlendirmeyenler, miras paylaşımında gerekli hukuki dengeyi kurmayanlar veya kira ilişkilerinde sorumluluklarını netleştirmeyenler, sonunda hukuki bir çatışmanın içinden çıkmakta zorlanabilir. Zira gayrimenkul davaları, gecikmiş bir müdahalenin maliyetini en çok hissettiren dava türlerinden biridir. Tapu iptali ve tescil, kamulaştırma, ortaklığın giderilmesi, el atmanın önlenmesi veya kira uyuşmazlıkları gibi süreçlerde, zaman kaybı yalnızca süreci değil, varlığın değerini de etkiler.\n\t\t\t\t\t<br><br>\n\t\t\t\t\tGayrimenkul hukukunun özünde acelecilik değil; ölçülülük, inceleme, doğrulama ve sabır vardır. Her taşınmazın kendine özgü bir hikâyesi, geçmişten bugüne taşıdığı hukuki yükleri ve geleceğe uzanan potansiyel riskleri bulunur. Uyuşmazlıkların ortaya çıkması kaçınılmaz olabilir; ancak doğru hukuki çalışmayla bu uyuşmazlıkların belirsizliğe dönüşmesi engellenebilir. Böylece mülk sahipleri, yatırımcılar ve tüm paydaşlar yalnızca bugünün değil, yarının da güvenli zeminini oluşturur.",
-    "listColumns": [
-      [
-        "Gayrimenkul hukuku, belirsizliği sevmez; çünkü belirsizlik mülkiyet hakkının değerini aşındırır."
-      ],
-      [
-        "Hak kaybı riskini görmezden gelmez; detaylara gösterilen özen gayrimenkulün gerçek güvenliğini sağlar."
-      ],
-      [
-        "Sözleşmeyi yalnızca bir metin olarak değil; ileride doğacak tüm hak ve yükümlülüklerin temeli olarak görür."
-      ],
-      [
-        "Tapu kaydındaki her bilgi, hukuki hafızanın bir parçasıdır; bu nedenle eksiklik değil, tutarlılık arar."
-      ]
-    ]
-  }
-},
-{
-  "slug": "sigorta-davalari",
-  "pageTitle": {
-    "bgImage": "images/sigortabanner.jpg",
-    "h1": "SİGORTA DAVALARI",
-    "breadcrumb": [
-      "Ana Sayfa",
-      "SİGORTA DAVALARI"
-    ]
-  },
-  "servicesDetail": {
-    "heroImage": {
-      "src": "images/sigorta.jpg",
-      "alt": "SİGORTA DAVALARI"
+    {
+      "slug": "sigorta-davalari",
+      "pageTitle": {
+        "bgImage": "images/sigortabanner.jpg",
+        "h1": "SİGORTA DAVALARI",
+        "breadcrumb": ["Ana Sayfa", "SİGORTA DAVALARI"]
+      },
+      "servicesDetail": {
+        "heroImage": {
+          "src": "images/sigorta.jpg",
+          "alt": "SİGORTA DAVALARI"
+        },
+        "heading": "Sigorta Uyuşmazlıklarının Temelinde Hukuki Güvence",
+        "paragraphHtml": "Sigorta, hayatın öngörülemezliğine karşı kurulan en rasyonel korunma mekanizmasıdır. Ancak bu mekanizma, gerçek işlevini ancak tarafların hak ve yükümlülüklerinin eksiksiz anlaşıldığı ve poliçe hükümlerinin doğru yorumlandığı bir düzende yerine getirir. Çünkü sigorta, yalnızca bir güvence belgesi değil; riskin paylaşılması, zararın doğru hesaplanması ve hak sahibinin korunması üzerine kurulu hassas bir hukuki yapıdır. Küçük bir beyan hatası, eksik bir teminat maddesi, yanlış yorumlanan bir istisna veya süresi içinde yapılmamış bir bildirim, sigorta korumasının zayıflamasına ve uyuşmazlığın büyümesine neden olabilir.\n\t\t\t\t\t<br><br>\n\t\t\t\t\tBu nedenle sigorta ilişkilerinde aceleyle verilen kararlar, çoğu zaman zararın kendisinden daha yıpratıcı sonuçlar doğurur. Poliçesini okumadan imzalayanlar, hasar anında gerekli belgeleri toplamayı ihmal edenler, ekspertiz sürecini doğru yönetemeyenler veya sigortacının teminat dışı yorumlarına karşı hakkını aramaktan çekinenler, ileride daha ciddi hak kayıplarıyla karşılaşabilir. Sigorta davalarının özelliği de burada belirginleşir: Uyuşmazlığın temelini yalnızca zarar değil, zararın hukuki çerçeve içinde nasıl değerlendirileceği belirler.\n\t\t\t\t\t<br><br>\n\t\t\t\t\tSigorta hukuku, olayın yüzeyine değil; nedenine, kapsamına ve poliçenin mantığına bakar. Her hasarın arka planında incelenmesi gereken bir risk profili, değerlendirilmesi gereken bir sözleşme dili ve yorumlanması gereken bir hukuki yapı bulunur. Uyuşmazlık kaçınılmaz olabilir; fakat doğru hukuki yaklaşım, belirsizliği azaltır, hak sahipliğini netleştirir ve sürecin zorlayıcı yönlerini yönetilebilir kılar. Böylece sigorta, yalnızca zarar anında değil, gelecekteki risklerin yönetiminde de güçlü bir güven zemini oluşturur.",
+        "listColumns": [
+          [
+            "Sigorta hukuku, belirsizliği sevmez; çünkü belirsizlik tazminat hakkını zayıflatır."
+          ],
+          [
+            "Poliçe hükümlerini katı kurallar değil; bilimsel ve hukuki yorum ilkeleri şekillendirir."
+          ],
+          [
+            "Hasar beyanı, sürecin temelidir; gecikme, hak kaybının ilk adımı olabilir."
+          ],
+          [
+            "Ekspertiz raporları eleştirel bakış ister; çünkü her rapor,zararın hukuki niteliğini belirler."
+          ]
+        ]
+      }
     },
-    "heading": "Sigorta Uyuşmazlıklarının Temelinde Hukuki Güvence",
-    "paragraphHtml": "Sigorta, hayatın öngörülemezliğine karşı kurulan en rasyonel korunma mekanizmasıdır. Ancak bu mekanizma, gerçek işlevini ancak tarafların hak ve yükümlülüklerinin eksiksiz anlaşıldığı ve poliçe hükümlerinin doğru yorumlandığı bir düzende yerine getirir. Çünkü sigorta, yalnızca bir güvence belgesi değil; riskin paylaşılması, zararın doğru hesaplanması ve hak sahibinin korunması üzerine kurulu hassas bir hukuki yapıdır. Küçük bir beyan hatası, eksik bir teminat maddesi, yanlış yorumlanan bir istisna veya süresi içinde yapılmamış bir bildirim, sigorta korumasının zayıflamasına ve uyuşmazlığın büyümesine neden olabilir.\n\t\t\t\t\t<br><br>\n\t\t\t\t\tBu nedenle sigorta ilişkilerinde aceleyle verilen kararlar, çoğu zaman zararın kendisinden daha yıpratıcı sonuçlar doğurur. Poliçesini okumadan imzalayanlar, hasar anında gerekli belgeleri toplamayı ihmal edenler, ekspertiz sürecini doğru yönetemeyenler veya sigortacının teminat dışı yorumlarına karşı hakkını aramaktan çekinenler, ileride daha ciddi hak kayıplarıyla karşılaşabilir. Sigorta davalarının özelliği de burada belirginleşir: Uyuşmazlığın temelini yalnızca zarar değil, zararın hukuki çerçeve içinde nasıl değerlendirileceği belirler.\n\t\t\t\t\t<br><br>\n\t\t\t\t\tSigorta hukuku, olayın yüzeyine değil; nedenine, kapsamına ve poliçenin mantığına bakar. Her hasarın arka planında incelenmesi gereken bir risk profili, değerlendirilmesi gereken bir sözleşme dili ve yorumlanması gereken bir hukuki yapı bulunur. Uyuşmazlık kaçınılmaz olabilir; fakat doğru hukuki yaklaşım, belirsizliği azaltır, hak sahipliğini netleştirir ve sürecin zorlayıcı yönlerini yönetilebilir kılar. Böylece sigorta, yalnızca zarar anında değil, gelecekteki risklerin yönetiminde de güçlü bir güven zemini oluşturur.",
-    "listColumns": [
-      [
-        "Sigorta hukuku, belirsizliği sevmez; çünkü belirsizlik tazminat hakkını zayıflatır."
-      ],
-      [
-        "Poliçe hükümlerini katı kurallar değil; bilimsel ve hukuki yorum ilkeleri şekillendirir."
-      ],
-      [
-        "Hasar beyanı, sürecin temelidir; gecikme, hak kaybının ilk adımı olabilir."
-      ],
-      [
-        "Ekspertiz raporları eleştirel bakış ister; çünkü her rapor,zararın hukuki niteliğini belirler."
-      ]
-    ]
-  }
-},
-{
-  "slug": "ticaret-hukuku",
-  "pageTitle": {
-    "bgImage": "images/ticaretbanner.jpg",
-    "h1": "TİCARET HUKUKU",
-    "breadcrumb": [
-      "Ana Sayfa",
-      "TİCARET HUKUKU"
-    ]
-  },
-  "servicesDetail": {
-    "heroImage": {
-      "src": "images/ticaret.jpg",
-      "alt": "TİCARET HUKUKU"
+    {
+      "slug": "ticaret-hukuku",
+      "pageTitle": {
+        "bgImage": "images/corporate-banner.jpg",
+        "h1": "TİCARET HUKUKU",
+        "breadcrumb": ["Ana Sayfa", "TİCARET HUKUKU"]
+      },
+      "servicesDetail": {
+        "heroImage": {
+          "src": "images/corporate.jpg",
+          "alt": "TİCARET HUKUKU"
+        },
+        "heading": "Ticari Hayatta Dengenin Adı: Hukuki Güvence",
+        "paragraphHtml": "Ticari hayat hızla akar; sözleşmeler imzalanır, alacaklar doğar, teslimatlar yapılır ve riskler çoğu zaman görünmez şekilde birikir. Bu akışın sağlıklı kalması, tarafların hak ve yükümlülüklerinin net biçimde tanımlanmasına bağlıdır. Çünkü belirsizlik; gecikme, ihtilaf ve mali kayıp üretir. <br><br>\n\nTicaret hukuku, sadece sorun çıktığında devreye giren bir “tamir takımı” değildir; doğru kurulduğunda, daha sorun oluşmadan sistemi stabil tutan bir altyapıdır. Sözleşme maddelerinin açık yazılması, teminatların doğru kurgulanması, ödeme vadelerinin ve teslim koşullarının netleştirilmesi; şirketin nakit akışını ve itibârını korur. <br><br>\n\nBu nedenle ticari süreçlerde ölçüsüz hız değil, kontrollü hız değerlidir. Hukuki öngörüyle ilerleyen işletme; pazarlıkta güç kazanır, uyuşmazlıkta avantaj sağlar ve büyüme dönemlerinde krizleri daha kolay absorbe eder.",
+        "listColumns": [
+          [
+            "Belirsizlik masum değildir; gecikmeyi ve maliyeti büyütür.",
+            "Netlik pazarlık gücüdür; metin güçlendikçe risk düşer."
+          ],
+          [
+            "Sözleşme, iyi niyetin yazılı hâlidir; yazılmayan her şey tartışmaya açıktır.",
+            "Teminat, güvenin sigortasıdır; doğru kurulmazsa güven tek taraflı yük olur."
+          ],
+          [
+            "Alacak yönetimi, yalnızca tahsilat değil; sürdürülebilirlik planıdır.",
+            "Ticari ihtilaflarda zaman kaybı, çoğu kez paradan daha pahalıdır."
+          ],
+          [
+            "Uyum (compliance) bir bürokrasi değil; markanın dayanıklılığıdır.",
+            "Doğru süreç; müşteriyi, tedarikçiyi ve şirketi aynı zeminde tutar."
+          ]
+        ]
+      }
     },
-    "heading": "Ticari Hayatta Dengenin Adı: Hukuki Güvence",
-    "paragraphHtml": "Ticari hayat hızla akar; sözleşmeler imzalanır, alacaklar doğar, teslimatlar yapılır ve riskler çoğu zaman görünmez şekilde birikir. Bu akışın sağlıklı kalması, tarafların hak ve yükümlülüklerinin net biçimde tanımlanmasına bağlıdır. Çünkü belirsizlik; gecikme, ihtilaf ve mali kayıp üretir. <br><br>\n\nTicaret hukuku, sadece sorun çıktığında devreye giren bir “tamir takımı” değildir; doğru kurulduğunda, daha sorun oluşmadan sistemi stabil tutan bir altyapıdır. Sözleşme maddelerinin açık yazılması, teminatların doğru kurgulanması, ödeme vadelerinin ve teslim koşullarının netleştirilmesi; şirketin nakit akışını ve itibârını korur. <br><br>\n\nBu nedenle ticari süreçlerde ölçüsüz hız değil, kontrollü hız değerlidir. Hukuki öngörüyle ilerleyen işletme; pazarlıkta güç kazanır, uyuşmazlıkta avantaj sağlar ve büyüme dönemlerinde krizleri daha kolay absorbe eder.",
-    "listColumns": [
-      [
-        "Belirsizlik masum değildir; gecikmeyi ve maliyeti büyütür.",
-        "Netlik pazarlık gücüdür; metin güçlendikçe risk düşer."
-      ],
-      [
-        "Sözleşme, iyi niyetin yazılı hâlidir; yazılmayan her şey tartışmaya açıktır.",
-        "Teminat, güvenin sigortasıdır; doğru kurulmazsa güven tek taraflı yük olur."
-      ],
-      [
-        "Alacak yönetimi, yalnızca tahsilat değil; sürdürülebilirlik planıdır.",
-        "Ticari ihtilaflarda zaman kaybı, çoğu kez paradan daha pahalıdır."
-      ],
-      [
-        "Uyum (compliance) bir bürokrasi değil; markanın dayanıklılığıdır.",
-        "Doğru süreç; müşteriyi, tedarikçiyi ve şirketi aynı zeminde tutar."
-      ]
-    ]
-  }
-},
-{
-  "slug": "trafik-kazasi-davalari",
-  "pageTitle": {
-    "bgImage": "images/ailebanner.jpg",
-    "h1": "TRAFİK KAZASI DAVALARI",
-    "breadcrumb": [
-      "Ana Sayfa",
-      "TRAFİK KAZASI DAVALARI"
-    ]
-  },
-  "servicesDetail": {
-    "heroImage": {
-      "src": "images/aile.jpg",
-      "alt": "TRAFİK KAZASI DAVALARI"
-    },
-    "heading": "Trafik Kazaları Davalarının Temelinde Hakların Bilinçli Korunması",
-    "paragraphHtml": "Ticari hayat hızla akar; sözleşmeler imzalanır, alacaklar doğar, teslimatlar yapılır ve riskler çoğu zaman görünmez şekilde birikir. Bu akışın sağlıklı kalması, tarafların hak ve yükümlülüklerinin net biçimde tanımlanmasına bağlıdır. Çünkü belirsizlik; gecikme, ihtilaf ve mali kayıp üretir. <br><br>\n\nTicaret hukuku, sadece sorun çıktığında devreye giren bir “tamir takımı” değildir; doğru kurulduğunda, daha sorun oluşmadan sistemi stabil tutan bir altyapıdır. Sözleşme maddelerinin açık yazılması, teminatların doğru kurgulanması, ödeme vadelerinin ve teslim koşullarının netleştirilmesi; şirketin nakit akışını ve itibârını korur. <br><br>\n\nBu nedenle ticari süreçlerde ölçüsüz hız değil, kontrollü hız değerlidir. Hukuki öngörüyle ilerleyen işletme; pazarlıkta güç kazanır, uyuşmazlıkta avantaj sağlar ve büyüme dönemlerinde krizleri daha kolay absorbe eder.",
-    "listColumns": [
-      [
-        "Trafik hukuku, kazanın yalnızca fiziksel etkisini değil; bu nedenle her delil titizlikle değerlendirilir."
-      ],
-      [
-        "Kusur oranı, tazminatın temelidir; bu nedenle her delil titizlikle değerlendirilir. Eksik tutanak veya geç bildirim, tazminat kaybının en yaygın nedenlerindendir."
-      ],
-      [
-        "Eksik tutanak veya geç bildirim, maddi zarar, tedavi giderleri ve gelir kaybı bilimsel hesaplamalarla belirlenir."
-      ],
-      [
-        "Manevi tazminat, yalnızca fiziksel zararlarla değil; duygusal ve psikolojik etkilerle de ilişkilendirilir."
-      ]
-    ]
-  }
+    {
+      "slug": "trafik-kazasi-davalari",
+      "pageTitle": {
+        "bgImage": "images/ailebanner.jpg",
+        "h1": "TRAFİK KAZASI DAVALARI",
+        "breadcrumb": ["Ana Sayfa", "TRAFİK KAZASI DAVALARI"]
+      },
+      "servicesDetail": {
+        "heroImage": {
+          "src": "images/aile.jpg",
+          "alt": "TRAFİK KAZASI DAVALARI"
+        },
+        "heading": "Trafik Kazaları Davalarının Temelinde Hakların Bilinçli Korunması",
+        "paragraphHtml": "Ticari hayat hızla akar; sözleşmeler imzalanır, alacaklar doğar, teslimatlar yapılır ve riskler çoğu zaman görünmez şekilde birikir. Bu akışın sağlıklı kalması, tarafların hak ve yükümlülüklerinin net biçimde tanımlanmasına bağlıdır. Çünkü belirsizlik; gecikme, ihtilaf ve mali kayıp üretir. <br><br>\n\nTicaret hukuku, sadece sorun çıktığında devreye giren bir “tamir takımı” değildir; doğru kurulduğunda, daha sorun oluşmadan sistemi stabil tutan bir altyapıdır. Sözleşme maddelerinin açık yazılması, teminatların doğru kurgulanması, ödeme vadelerinin ve teslim koşullarının netleştirilmesi; şirketin nakit akışını ve itibârını korur. <br><br>\n\nBu nedenle ticari süreçlerde ölçüsüz hız değil, kontrollü hız değerlidir. Hukuki öngörüyle ilerleyen işletme; pazarlıkta güç kazanır, uyuşmazlıkta avantaj sağlar ve büyüme dönemlerinde krizleri daha kolay absorbe eder.",
+        "listColumns": [
+          [
+            "Trafik hukuku, kazanın yalnızca fiziksel etkisini değil; bu nedenle her delil titizlikle değerlendirilir."
+          ],
+          [
+            "Kusur oranı, tazminatın temelidir; bu nedenle her delil titizlikle değerlendirilir. Eksik tutanak veya geç bildirim, tazminat kaybının en yaygın nedenlerindendir."
+          ],
+          [
+            "Eksik tutanak veya geç bildirim, maddi zarar, tedavi giderleri ve gelir kaybı bilimsel hesaplamalarla belirlenir."
+          ],
+          [
+            "Manevi tazminat, yalnızca fiziksel zararlarla değil; duygusal ve psikolojik etkilerle de ilişkilendirilir."
+          ]
+        ]
+      }
+    }
+  ]
 }
-]}
