@@ -141,7 +141,7 @@
 {
   "slug": "ticaret-hukuku",
   "pageTitle": {
-    "bgImage": "images/corporate-banner.jpg",
+    "bgImage": "images/ticaretbanner.jpg",
     "h1": "TİCARET HUKUKU",
     "breadcrumb": [
       "Ana Sayfa",
@@ -150,7 +150,7 @@
   },
   "servicesDetail": {
     "heroImage": {
-      "src": "images/corporate.jpg",
+      "src": "images/ticaret.jpg",
       "alt": "TİCARET HUKUKU"
     },
     "heading": "Ticari Hayatta Dengenin Adı: Hukuki Güvence",
