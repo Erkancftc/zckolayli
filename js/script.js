@@ -14,46 +14,41 @@
 	
 	//Update Header Style and Scroll to Top
 	function headerStyle() {
-  if ($('.main-header').length) {
-    var windowpos = $(window).scrollTop();
-    var siteHeader = $('.main-header');
-    var scrollLink = $('.scroll-to-top');
-    var HeaderHeight = siteHeader.outerHeight();
+  if (!$('.main-header').length) return;
 
-    /* Sticky eşik */
-    if (windowpos >= HeaderHeight) {
+  var windowpos = $(window).scrollTop();
+  var siteHeader = $('.main-header');
+  var scrollLink = $('.scroll-to-top');
+  var HeaderHeight = siteHeader.outerHeight();
 
-      /* Scroll UP */
-      if (windowpos < lastScrollTop) {
-        siteHeader
-          .addClass('fixed-header')
-          .removeClass('hide-header');
-		
-		  
+  // Header eşik üstü
+  if (windowpos > HeaderHeight) {
 
-        scrollLink.fadeIn(300);
+    // 🔼 Scroll UP
+    if (windowpos < lastScrollTop) {
+      siteHeader
+        .addClass('fixed-header')
+        .removeClass('hide-header');
 
-      } 
-      /* Scroll DOWN */
-      else {
-        siteHeader.addClass('hide-header');
-      }
-
-    } 
-    /* En üstteyken tamamen normal */
+      scrollLink.fadeIn(300);
+    }
+    // 🔽 Scroll DOWN
     else {
       siteHeader
-        .removeClass('fixed-header hide-header');
-
-      scrollLink.fadeOut(300);
+        .removeClass('fixed-header')
+        .addClass('hide-header');
     }
 
-    lastScrollTop = windowpos <= 0 ? 0 : windowpos;
   }
+  // En üstte
+  else {
+    siteHeader.removeClass('fixed-header hide-header');
+    scrollLink.fadeOut(300);
+  }
+
+  lastScrollTop = windowpos <= 0 ? 0 : windowpos;
 }
-$(window).on('scroll', function () {
-  headerStyle();
-});
+
 
 	
 	
