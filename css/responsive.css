@@ -134,6 +134,21 @@
 	
 }
 
+
+@media (min-width: 1921px) {
+  .owl-carousel .owl-item .slide {
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+	background-repeat: no-repeat;
+  }
+   
+
+}
+
+
+
+
 @media only screen and (min-width: 768px){
 	
 	.main-menu .navigation > li > ul,
