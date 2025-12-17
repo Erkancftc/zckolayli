@@ -631,6 +631,7 @@ img{
 .header-right {
   display: flex;
   justify-content: flex-start;
+  width: max-content;
 }
 
 /* Ödeme butonu */
