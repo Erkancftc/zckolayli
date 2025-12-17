@@ -2,16 +2,16 @@
   "defaultPage": "corporate_law",
   "pages": [
     {
-      "slug": "sirketler-hukuku",
+      "slug": "sirket-hukuku-davalari",
       "pageTitle": {
         "bgImage": "images/corporate-banner.jpg",
-        "h1": "ŞİRKETLER HUKUKU",
-        "breadcrumb": ["Ana Sayfa", "ŞİRKETLER HUKUKU"]
+        "h1": "ŞİRKET HUKUKU DAVALARI",
+        "breadcrumb": ["Ana Sayfa", "ŞİRKET HUKUKU DAVALARI"]
       },
       "servicesDetail": {
         "heroImage": {
           "src": "images/corporate.jpg",
-          "alt": "ŞİRKETLER HUKUKU"
+          "alt": "ŞİRKET HUKUKU DAVALARI"
         },
         "heading": "Kurumsal Yaşamın Temelinde Hukuki Bilgelik",
         "paragraphHtml": "Kurumsal düzenin hâkim olduğu her alanda, şirketlerin sağlıklı bir şekilde varlık göstermesi ancak hukukla uyum içinde\n\t\t\t\t\tilerlemeleriyle mümkündür. Günlük faaliyetlerde özgürce karar verebilmek, girişimciliğin ve ticari hayatın en değerli\n\t\t\t\t\tzevklerinden biridir; ancak bu özgürlük, zamanı geldiğinde yerini hukuki yükümlülüklere bırakmak zorundadır. Zira bazı\n\t\t\t\t\tanlarda, şirket menfaatini korumak için tercih edilen yoldan geri dönmek, riskli bir zevki ertelemek veya disiplin\n\t\t\t\t\tgerektiren bir sorumluluğu üstlenmek zorunludur. <br><br>\n\t\t\t\t\t\n\t\t\t\t\tBu nedenle, kurumsal hayatta kısa vadeli kazançların cazibesine kapılarak hukuki öngörüyü ihmal edenler, sonunda daha\n\t\t\t\t\tağır sonuçlarla yüzleşir. Gerekli incelemeleri yapmaktan kaçanlar, sorumluluklarını zamanında yerine getirmeyenler veya\n\t\t\t\t\tşirketin uzun vadeli istikrarını tehlikeye atanlar, kendi açılarından değil, tüm paydaşlar açısından sorun yaratırlar.\n\t\t\t\t\t<br><br>\n\t\t\t\t\tKurumsal hukuk, aceleci davranışları değil; muhakemeyi, planlamayı ve ölçülü adım atmayı onaylar. Uyumsuzluğun getirdiği\n\t\t\t\t\tsıkıntı, kaçınılamayacak bir gerçektir; ancak bu sıkıntı, görevlerin doğru şekillendirilmesiyle gelecekteki\n\t\t\t\t\tbelirsizlikleri yok eder. Böylece şirketler, yalnızca bugünün değil yarının da güvenli zeminini oluşturur.",
@@ -37,16 +37,16 @@
     },
 
     {
-      "slug": "aile-davalari",
+      "slug": "aile-hukuku-davalari",
       "pageTitle": {
         "bgImage": "images/ailebanner.jpg",
-        "h1": "AİLE DAVALARI",
-        "breadcrumb": ["Ana Sayfa", "AİLE DAVALARI"]
+        "h1": "AİLE HUKUKU DAVALARI",
+        "breadcrumb": ["Ana Sayfa", "AİLE HUKUKU DAVALARI"]
       },
       "servicesDetail": {
         "heroImage": {
           "src": "images/aile.jpg",
-          "alt": "AİLE DAVALARI"
+          "alt": "AİLE HUKUKU DAVALARI"
         },
         "heading": "Aile Hukukunun Temelinde Denge ve Hukuki İhtimam",
         "paragraphHtml": "Aile hukuku, hukukun en hassas alanlarından biridir; çünkü burada yalnızca haklar değil, insanların yaşam düzeni, duygusal dünyası, gelecek planları ve kimi zaman çocukların kaderi söz konusudur. Bu nedenle aile davalarında doğru yaklaşım, yalnızca hukuki çerçeveyi bilmek değil; süreci öngörülebilir, güvenli ve saygılı bir zemine oturtmaktır. Zira aile içinde yaşanan bir anlaşmazlık, çoğu zaman bir hukuki ihtilaftan çok daha fazlasını taşır: Geçmişin alışkanlıklarını, bugün yaşanan belirsizlikleri ve geleceğe dair kaygıları beraberinde getirir.\n\t\t\t\t\t<br><br>\n\t\t\t\t\tAceleyle verilen kararlar, öfkeyle yapılan başvurular veya yeterince değerlendirilmemiş talepler, tarafların uzun vadeli haklarını zedeleyebilir. Boşanma sürecinde mal paylaşımının ayrıntılarını göz ardı edenler, velayet konusunda duygusal baskının yönlendiriciliğine kapılanlar, nafaka ve tazminat taleplerini bilinçli bir hesaplama olmaksızın belirleyenler, sonrasında daha ağır sonuçlarla karşılaşabilir. Aile davaları, kısa vadeli bir rahatlamadan ziyade uzun vadeli bir düzen inşa etmeyi gerektirir.\n\t\t\t\t\t<br><br>\n\t\t\t\t\tAile hukuku, tarafları çatışmanın merkezine değil; çözümün çerçevesine yerleştirir. Her aile dinamiği benzersizdir; bu nedenle her davanın kendine özgü bir hikâyesi, delilleri, beklentileri ve hukuki yükleri vardır. Uyuşmazlık kaçınılmaz olabilir; ancak doğru hukuki özen, belirsizliği azaltır, duygusal gerginliği yönetir ve hakkaniyetli bir sonuca giden yolu açar. Böylece aileler, yalnızca bugün için değil, gelecekte de güvenli bir düzen kurma imkânı bulur.",
@@ -95,11 +95,11 @@
       }
     },
     {
-      "slug": "sigorta-davalari",
+      "slug": "sigorta-hukuku-davalari",
       "pageTitle": {
         "bgImage": "images/sigortabanner.jpg",
-        "h1": "SİGORTA DAVALARI",
-        "breadcrumb": ["Ana Sayfa", "SİGORTA DAVALARI"]
+        "h1": "SİGORTA HUKUKU DAVALARI",
+        "breadcrumb": ["Ana Sayfa", "SİGORTA HUKUKU DAVALARI"]
       },
       "servicesDetail": {
         "heroImage": {
@@ -125,16 +125,16 @@
       }
     },
     {
-      "slug": "ticaret-hukuku",
+      "slug": "ticaret-hukuku-davalari",
       "pageTitle": {
         "bgImage": "images/ticaretbanner.jpg",
-        "h1": "TİCARET HUKUKU",
-        "breadcrumb": ["Ana Sayfa", "TİCARET HUKUKU"]
+        "h1": "TİCARET HUKUKU DAVALARI",
+        "breadcrumb": ["Ana Sayfa", "TİCARET HUKUKU DAVALARI"]
       },
       "servicesDetail": {
         "heroImage": {
           "src": "images/ticaret.jpg",
-          "alt": "TİCARET HUKUKU"
+          "alt": "TİCARET HUKUKU DAVALARI"
         },
         "heading": "Ticari Hayatta Dengenin Adı: Hukuki Güvence",
         "paragraphHtml": "Ticari hayat hızla akar; sözleşmeler imzalanır, alacaklar doğar, teslimatlar yapılır ve riskler çoğu zaman görünmez şekilde birikir. Bu akışın sağlıklı kalması, tarafların hak ve yükümlülüklerinin net biçimde tanımlanmasına bağlıdır. Çünkü belirsizlik; gecikme, ihtilaf ve mali kayıp üretir. <br><br>\n\nTicaret hukuku, sadece sorun çıktığında devreye giren bir “tamir takımı” değildir; doğru kurulduğunda, daha sorun oluşmadan sistemi stabil tutan bir altyapıdır. Sözleşme maddelerinin açık yazılması, teminatların doğru kurgulanması, ödeme vadelerinin ve teslim koşullarının netleştirilmesi; şirketin nakit akışını ve itibârını korur. <br><br>\n\nBu nedenle ticari süreçlerde ölçüsüz hız değil, kontrollü hız değerlidir. Hukuki öngörüyle ilerleyen işletme; pazarlıkta güç kazanır, uyuşmazlıkta avantaj sağlar ve büyüme dönemlerinde krizleri daha kolay absorbe eder.",
@@ -161,13 +161,13 @@
     {
       "slug": "trafik-kazasi-davalari",
       "pageTitle": {
-        "bgImage": "images/ailebanner.jpg",
+        "bgImage": "images/trafik-banner.jpg",
         "h1": "TRAFİK KAZASI DAVALARI",
         "breadcrumb": ["Ana Sayfa", "TRAFİK KAZASI DAVALARI"]
       },
       "servicesDetail": {
         "heroImage": {
-          "src": "images/aile.jpg",
+          "src": "images/trafik.jpg",
           "alt": "TRAFİK KAZASI DAVALARI"
         },
         "heading": "Trafik Kazaları Davalarının Temelinde Hakların Bilinçli Korunması",
@@ -188,5 +188,44 @@
         ]
       }
     }
+    {
+      "slug": "is-hukuku-davalari",
+      "pageTitle": {
+        "bgImage": "images/trafik-banner.jpg",
+        "h1": "İŞ HUKUKU DAVALARI",
+        "breadcrumb": ["Ana Sayfa", "İŞ HUKUKU DAVALARI"]
+      },
+      "servicesDetail": {
+        "heroImage": {
+          "src": "images/trafik.jpg",
+          "alt": "İŞ HUKUKU DAVALARI"
+        },
+        "heading": "İş Yaşamının Dengesinde İş Hukuku Bilinci",
+         "paragraphHtml": "İş yaşamı dinamik ve süreklidir; sözleşmeler yapılır, görevler tanımlanır, performans ölçülür ve sorumluluklar zamanla birikir. Bu yapının sağlıklı işlemesi, işveren ile çalışan arasındaki hak ve yükümlülüklerin açık ve dengeli biçimde belirlenmesine bağlıdır. Çünkü belirsizlik; güvensizlik, uyuşmazlık ve iş barışının bozulmasıyla sonuçlanır. <br><br>\n\nİş hukuku, yalnızca bir uyuşmazlık ortaya çıktığında başvurulan bir müdahale alanı değildir; doğru kurgulandığında, daha sorun doğmadan iş ilişkisini koruyan bir denge mekanizmasıdır. Sözleşmelerin mevzuata uygun hazırlanması, fesih süreçlerinin hukuka uygun yürütülmesi, ücret ve çalışma koşullarının şeffaf biçimde belirlenmesi; hem işverenin hem çalışanın haklarını güvence altına alır. <br><br>\n\nBu nedenle iş ilişkilerinde ölçüsüz esneklik değil, kontrollü ve belgeli uygulamalar değerlidir. Hukuki öngörüyle hareket eden taraflar; uyuşmazlık riskini azaltır, dava süreçlerinde avantaj sağlar ve uzun vadede sürdürülebilir bir çalışma düzeni kurar.",
+        "listColumns": [
+          [
+            "İş hukuku, iş ilişkisinin yalnızca sonucunu değil; sürecin tamamını dikkate alır. Bu nedenle her uygulama belgeli ve mevzuata uygun olmalıdır."
+          ],
+          [
+            "Fesih şekli ve gerekçesi, davanın kaderini belirler. Hatalı fesih, kıdem ve ihbar tazminatının yanında işe iade riskini doğurur."
+          ],
+          [
+            "Ücret, fazla mesai ve izin alacakları somut kayıtlar üzerinden değerlendirilir. Eksik bordro ve kayıt dışı uygulamalar, en sık dava nedenleri arasındadır."
+          ],
+          [
+            "Mobbing ve kötü muamele iddiaları, yalnızca bireysel beyanlarla değil; süreklilik ve ispat kriterleriyle ele alınır."
+          ],
+          [
+            "İş kazası ve meslek hastalığı davalarında, işverenin gözetim borcu esas alınır. Önleyici tedbirlerin eksikliği, ağır hukuki sorumluluk doğurabilir."
+          ],
+          [
+            "Zamanaşımı süreleri, işçilik alacaklarında belirleyicidir. Süresinde talep edilmeyen haklar, dava açılmış olsa dahi kayba uğrayabilir."
+          ]
+
+          
+        ]
+      }
+    }
+    
   ]
 }
