@@ -7,6 +7,31 @@
 (function () {
   "use strict";
 
+  // Sayfa verisi gelene kadar ekran kapalı (preloader). Veri + kritik görseller hazır olunca açılır.
+  function finishLoading() {
+    // Skeleton varsa kapat
+    var skel = document.getElementById("servicesSkeleton");
+    if (skel) skel.style.display = "none";
+
+    // Preloader kapat + sayfayı göster
+    document.body.classList.remove("js-loading");
+    var pre = document.getElementById("pagePreloader");
+    if (pre) pre.style.display = "none";
+  }
+
+  function waitImg(id) {
+    return new Promise(function (resolve) {
+      var img = document.getElementById(id);
+      if (!img) return resolve();
+      // src yoksa bekleme
+      if (!img.getAttribute("src")) return resolve();
+      if (img.complete) return resolve();
+      img.addEventListener("load", function () { resolve(); }, { once: true });
+      img.addEventListener("error", function () { resolve(); }, { once: true });
+    });
+  }
+
+
   function qs(id) {
     return document.getElementById(id);
   }
@@ -18,13 +43,6 @@
       .replace(/>/g, "&gt;")
       .replace(/"/g, "&quot;")
       .replace(/'/g, "&#039;");
-  }
-
-
-  function hideSkeleton() {
-    var skel = qs("servicesSkeleton");
-    if (skel) skel.style.display = "none";
-    if (document.body) document.body.classList.remove("js-loading");
   }
 
   function renderBreadcrumb(breadcrumb) {
@@ -180,7 +198,6 @@
   }
 
   document.addEventListener("DOMContentLoaded", function () {
-    if (document.body) document.body.classList.add("js-loading");
     var params = new URLSearchParams(window.location.search);
     var slug = params.get("page");
 
@@ -198,14 +215,19 @@
         }
         if (page) {
           applyPage(page);
-          hideSkeleton();
+          Promise.all([waitImg('servicesHeroImage'), waitImg('ctaImage')]).then(function(){
+            finishLoading();
+          });
         } else {
-          hideSkeleton();
+          finishLoading();
         }
+Promise.all([waitImg('servicesHeroImage'), waitImg('ctaImage')]).then(function(){
+          finishLoading();
+        });
       })
       .catch(function (err) {
         console.error(err);
-        hideSkeleton();
+        finishLoading();
       });
   });
 })();

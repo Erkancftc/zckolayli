@@ -23,33 +23,18 @@
 
 <!--[if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script><![endif]-->
 <!--[if lt IE 9]><script src="js/respond.js"></script><![endif]-->
-<style id="services-skeleton-style">
-/* Services Skeleton Loader */
-.js-loading .services-detail-section .inner-container{
-  visibility:hidden;
-}
-#servicesSkeleton.services-skeleton{
-  display:block;
-}
-#servicesSkeleton.services-skeleton > div{
-  background: linear-gradient(90deg,#ececec 25%,#f5f5f5 37%,#ececec 63%);
-  background-size:400% 100%;
-  animation: shimmer 1.4s ease infinite;
-  border-radius:6px;
-  margin-bottom:14px;
-}
-#servicesSkeleton .skel-image{height:320px;}
-#servicesSkeleton .skel-title{height:32px;width:60%;}
-#servicesSkeleton .skel-line{height:14px;width:100%;}
-#servicesSkeleton .skel-line.short{width:40%;}
-#servicesSkeleton .skel-list{display:grid;grid-template-columns:repeat(2,1fr);gap:12px;}
-#servicesSkeleton .skel-item{height:14px;}
-#servicesSkeleton .skel-button{height:44px;width:220px;margin-top:20px;}
-@keyframes shimmer{0%{background-position:-400px 0;}100%{background-position:400px 0;}}
-</style>
 </head>
 
 <body class="hidden-bar-wrapper js-loading">
+
+
+<!-- Preloader (JS içerik yüklenene kadar ekranı kapatır) -->
+<div id="pagePreloader" class="page-preloader" aria-hidden="true">
+  <div class="page-preloader__inner">
+    <div class="page-preloader__shimmer"></div>
+    <div class="page-preloader__bar"></div>
+  </div>
+</div>
 
 <div class="page-wrapper">
 
@@ -196,13 +181,10 @@
     <!-- End Main Header -->
 
 	<!-- Page Title -->
-    <section id="pageTitleSection" class="page-title" style="background-image:url(images/ticaretbanner.jpg)">
+    <section id="pageTitleSection" class="page-title">
     	<div class="auto-container">
-			<h1 id="pageTitleH1">TİCARET HUKUKU</h1>
-			<ul id="pageBreadcrumb" class="page-breadcrumb">
-				<li><a href="index.html">Ana Sayfa</a></li>
-				<li>TİCARET HUKUKU</li>
-			</ul>
+			<h1 id="pageTitleH1"></h1>
+			<ul id="pageBreadcrumb" class="page-breadcrumb"></ul>
         </div>
     </section>
     <!-- End Page Title -->
@@ -211,29 +193,11 @@
 	<section class="services-detail-section">
 		<div class="auto-container">
 			<div class="inner-container">
-<!-- Skeleton Loader -->
-<div id="servicesSkeleton" class="services-skeleton">
-  <div class="skel-image"></div>
-  <div class="skel-title"></div>
-  <div class="skel-line"></div>
-  <div class="skel-line"></div>
-  <div class="skel-line short"></div>
-
-  <div class="skel-list">
-    <div class="skel-item"></div>
-    <div class="skel-item"></div>
-    <div class="skel-item"></div>
-    <div class="skel-item"></div>
-  </div>
-
-  <div class="skel-button"></div>
-</div>
-
 				<div class="image">
-					<img id="servicesHeroImage" src="images/ticaret.jpg" alt="Ticaret Hukuku" />
+					<img id="servicesHeroImage" src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" alt="Ticaret Hukuku" />
 				</div>
 				<div class="lower-content">
-					<h2 id="servicesHeading">Kurumsal Yaşamın Temelinde Hukuki Bilgelik</h2>
+					<h2 id="servicesHeading"></h2>
 					<p id="servicesParagraph">
 						<!-- JSON'dan yüklenecek -->
 					</p>
@@ -303,26 +267,8 @@
 	<section class="cta-section">
 		<div class="auto-container">
 			<div class="inner-container">
-<!-- Skeleton Loader -->
-<div id="servicesSkeleton" class="services-skeleton">
-  <div class="skel-image"></div>
-  <div class="skel-title"></div>
-  <div class="skel-line"></div>
-  <div class="skel-line"></div>
-  <div class="skel-line short"></div>
-
-  <div class="skel-list">
-    <div class="skel-item"></div>
-    <div class="skel-item"></div>
-    <div class="skel-item"></div>
-    <div class="skel-item"></div>
-  </div>
-
-  <div class="skel-button"></div>
-</div>
-
 				<div class="image">
-					<img id="ctaImage" src="images/price01.jpg" alt="ödeme" />
+					<img id="ctaImage" src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" alt="ödeme" />
 				</div>
 				<div class="content">
 					<h2 id="ctaTitle">Avukatımızla görüşün.</h2>

@@ -6673,3 +6673,27 @@ img{
 	
 }
 
+/* Preloader: JS ile içerik yüklenene kadar ekranı gizler */
+.page-preloader{
+  position:fixed; inset:0; z-index:99999;
+  background:#fff;
+  display:flex; align-items:center; justify-content:center;
+}
+.page-preloader__inner{ width:min(420px, 80vw); }
+.page-preloader__shimmer{
+  height:14px; border-radius:10px;
+  background:linear-gradient(90deg,#ececec 25%,#f5f5f5 37%,#ececec 63%);
+  background-size:400% 100%;
+  animation:pre_shimmer 1.2s ease infinite;
+}
+.page-preloader__bar{
+  margin-top:14px; height:6px; border-radius:10px;
+  background:linear-gradient(90deg,#ececec 25%,#f5f5f5 37%,#ececec 63%);
+  background-size:400% 100%;
+  animation:pre_shimmer 1.2s ease infinite;
+}
+@keyframes pre_shimmer{ 0%{background-position:-400px 0} 100%{background-position:400px 0} }
+
+/* Yüklenme bitene kadar sayfanın tamamını gizle (breadcrumb + hero bg dahil) */
+body.js-loading .page-wrapper{ visibility:hidden; }
+body:not(.js-loading) .page-preloader{ display:none; }
