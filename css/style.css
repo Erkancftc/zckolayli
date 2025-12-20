@@ -1071,6 +1071,7 @@ img{
 	-ms-transform: rotateX(0deg);
 	-o-transform: rotateX(0deg);
     transform: rotateX(0deg);
+	width: max-content;
 }
 
 .main-menu .navigation li > ul > li.dropdown:hover > ul{
