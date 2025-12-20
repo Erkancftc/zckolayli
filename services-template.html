@@ -23,9 +23,33 @@
 
 <!--[if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script><![endif]-->
 <!--[if lt IE 9]><script src="js/respond.js"></script><![endif]-->
+<style id="services-skeleton-style">
+/* Services Skeleton Loader */
+.js-loading .services-detail-section .inner-container{
+  visibility:hidden;
+}
+#servicesSkeleton.services-skeleton{
+  display:block;
+}
+#servicesSkeleton.services-skeleton > div{
+  background: linear-gradient(90deg,#ececec 25%,#f5f5f5 37%,#ececec 63%);
+  background-size:400% 100%;
+  animation: shimmer 1.4s ease infinite;
+  border-radius:6px;
+  margin-bottom:14px;
+}
+#servicesSkeleton .skel-image{height:320px;}
+#servicesSkeleton .skel-title{height:32px;width:60%;}
+#servicesSkeleton .skel-line{height:14px;width:100%;}
+#servicesSkeleton .skel-line.short{width:40%;}
+#servicesSkeleton .skel-list{display:grid;grid-template-columns:repeat(2,1fr);gap:12px;}
+#servicesSkeleton .skel-item{height:14px;}
+#servicesSkeleton .skel-button{height:44px;width:220px;margin-top:20px;}
+@keyframes shimmer{0%{background-position:-400px 0;}100%{background-position:400px 0;}}
+</style>
 </head>
 
-<body class="hidden-bar-wrapper">
+<body class="hidden-bar-wrapper js-loading">
 
 <div class="page-wrapper">
 
@@ -187,6 +211,24 @@
 	<section class="services-detail-section">
 		<div class="auto-container">
 			<div class="inner-container">
+<!-- Skeleton Loader -->
+<div id="servicesSkeleton" class="services-skeleton">
+  <div class="skel-image"></div>
+  <div class="skel-title"></div>
+  <div class="skel-line"></div>
+  <div class="skel-line"></div>
+  <div class="skel-line short"></div>
+
+  <div class="skel-list">
+    <div class="skel-item"></div>
+    <div class="skel-item"></div>
+    <div class="skel-item"></div>
+    <div class="skel-item"></div>
+  </div>
+
+  <div class="skel-button"></div>
+</div>
+
 				<div class="image">
 					<img id="servicesHeroImage" src="images/ticaret.jpg" alt="Ticaret Hukuku" />
 				</div>
@@ -261,6 +303,24 @@
 	<section class="cta-section">
 		<div class="auto-container">
 			<div class="inner-container">
+<!-- Skeleton Loader -->
+<div id="servicesSkeleton" class="services-skeleton">
+  <div class="skel-image"></div>
+  <div class="skel-title"></div>
+  <div class="skel-line"></div>
+  <div class="skel-line"></div>
+  <div class="skel-line short"></div>
+
+  <div class="skel-list">
+    <div class="skel-item"></div>
+    <div class="skel-item"></div>
+    <div class="skel-item"></div>
+    <div class="skel-item"></div>
+  </div>
+
+  <div class="skel-button"></div>
+</div>
+
 				<div class="image">
 					<img id="ctaImage" src="images/price01.jpg" alt="ödeme" />
 				</div>

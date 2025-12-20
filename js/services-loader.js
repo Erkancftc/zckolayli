@@ -20,6 +20,13 @@
       .replace(/'/g, "&#039;");
   }
 
+
+  function hideSkeleton() {
+    var skel = qs("servicesSkeleton");
+    if (skel) skel.style.display = "none";
+    if (document.body) document.body.classList.remove("js-loading");
+  }
+
   function renderBreadcrumb(breadcrumb) {
     // breadcrumb: ["Ana Sayfa", "ŞİRKETLER HUKUKU"]
     var ul = qs("pageBreadcrumb");
@@ -173,6 +180,7 @@
   }
 
   document.addEventListener("DOMContentLoaded", function () {
+    if (document.body) document.body.classList.add("js-loading");
     var params = new URLSearchParams(window.location.search);
     var slug = params.get("page");
 
@@ -188,10 +196,16 @@
           console.warn("Sayfa bulunamadı, defaultPage kullanılacak:", targetSlug);
           page = (db.pages || [])[0];
         }
-        if (page) applyPage(page);
+        if (page) {
+          applyPage(page);
+          hideSkeleton();
+        } else {
+          hideSkeleton();
+        }
       })
       .catch(function (err) {
         console.error(err);
+        hideSkeleton();
       });
   });
 })();
