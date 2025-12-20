@@ -39,13 +39,13 @@
                                                          "_comment": "TİCARET HUKUKU",
       "slug": "ticaret-hukuku",
       "pageTitle": {
-        "bgImage": "images/corporate-banner.jpg",
+        "bgImage": "images/ticaretbanner.jpg",
         "h1": "TİCARET HUKUKU",
         "breadcrumb": ["Ana Sayfa", "TİCARET HUKUKU"]
       },
       "servicesDetail": {
         "heroImage": {
-          "src": "images/corporate.jpg",
+          "src": "images/ticaret.jpg",
           "alt": "TİCARET HUKUKU"
         },
         "heading": "Kurumsal Yaşamın Temelinde Hukuki Bilgelik",
@@ -148,18 +148,18 @@
                                                                            "_comment": "İŞ HUKUKU DAVALARI",
       "slug": "is-hukuku-davalari",
       "pageTitle": {
-        "bgImage": "images/is-hukuku-banner.jpg",
+        "bgImage": "images/isci-davalari-banner.jpg",
         "h1": "İŞ HUKUKU DAVALARI",
         "breadcrumb": ["Ana Sayfa", "İŞ HUKUKU DAVALARI"]
       },
       "servicesDetail": {
         "heroImage": {
-          "src": "images/is-hukuku.jpg",
+          "src": "images/isci-davaları.jpg",
           "alt": "İŞ HUKUKU DAVALARI"
         },
         "heading": "İş Hukukunun Temelinde Çalışan ve İşveren Haklarının Dengesi",
         "paragraphHtml": "İş hukuku, çalışma hayatının dinamiklerini düzenleyen, işçi ve işveren arasındaki ilişkileri dengeleyen temel bir hukuk dalıdır. Bu alan, iş sözleşmelerinden iş sağlığı ve güvenliğine, çalışma koşullarından işten çıkarmalara kadar geniş bir yelpazede yer alır. İş hukuku, tarafların hak ve yükümlülüklerini belirleyerek, çalışma ortamının adil, güvenli ve verimli bir şekilde işlemesini sağlar. <br><br>\n\nİşçi ve işveren arasındaki ilişkiler karmaşık olabilir; bu nedenle iş hukuku, bu ilişkilerin doğru anlaşılması ve yönetilmesi için gerekli çerçeveyi sunar. İş sözleşmelerinin doğru hazırlanması, çalışma koşullarının iyileştirilmesi, iş sağlığı ve güvenliğinin sağlanması gibi konular, iş hukukunun temel taşlarını oluşturur. <br><br>\n\nBu nedenle iş hukuku alanında doğru adımlar atmak, işçi ve işverenlerin haklarını etkin bir şekilde korumasını sağlar. Hukuki öngörüyle hareket eden taraflar; uyuşmazlık riskini azaltır, dava süreçlerinde avantaj sağlar ve uzun vadede sürdürülebilir çalışma ilişkileri kurar.",
-        "       listColumns": [
+        "listColumns": [
           [
             "İş hukuku, çalışma ilişkilerinin adil ve dengeli olmasını sağlar; bu nedenle her durum dikkatle değerlendirilir."
           ],
@@ -182,13 +182,13 @@
                                                                       "_comment": "İCRA VE İFLAS HUKUKU",
       "slug": "icra-ve-iflas-hukuku",
       "pageTitle": {
-        "bgImage": "images/icra-banner.jpg",
+        "bgImage": "images/icra-iflas-banner.jpg",
         "h1": "İCRA VE İFLAS HUKUKU",
         "breadcrumb": ["Ana Sayfa", "İCRA VE İFLAS HUKUKU"]
       },
       "servicesDetail": {
         "heroImage": {
-          "src": "images/icra.jpg",
+          "src": "images/icra-iflas.jpg",
           "alt": "İCRA VE İFLAS HUKUKU"
         },
         "heading": "İcra ve İflas Hukukunun Temelinde Hakların Etkin Korunması",
@@ -217,13 +217,13 @@
                                                                       "_comment": "İŞÇİ ALACAKLARI DAVALARI",
       "slug": "isci-alacaklari-davalari",
       "pageTitle": {
-        "bgImage": "images/isci-banner.jpg",
+        "bgImage": "images/isci-alacaklari-banner.jpg",
         "h1": "İŞÇİ ALACAKLARI DAVALARI",
         "breadcrumb": ["Ana Sayfa", "İŞÇİ ALACAKLARI DAVALARI"]
       },
       "servicesDetail": {
         "heroImage": {
-          "src": "images/isci.jpg",
+          "src": "images/isci-alacaklari.jpg",
           "alt": "İŞÇİ ALACAKLARI DAVALARI"
         },
         "heading": "İşçi Alacakları Davalarının Temelinde Hakların Bilinçli Korunması",
