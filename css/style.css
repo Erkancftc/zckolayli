@@ -886,7 +886,7 @@ img{
 	position:absolute;
 	left:0px;
 	top:110%;
-	width:230px;
+	width:max-content;
 	z-index:100;
 	display:none;
 	opacity: 0;
@@ -1071,7 +1071,6 @@ img{
 	-ms-transform: rotateX(0deg);
 	-o-transform: rotateX(0deg);
     transform: rotateX(0deg);
-	width: max-content;
 }
 
 .main-menu .navigation li > ul > li.dropdown:hover > ul{
