@@ -78,13 +78,13 @@
                                                                "_comment": "ÖZEL HUKUK DAVALARI",
       "slug": "ozel-hukuk",
       "pageTitle": {
-        "bgImage": "images/private-law-banner.jpg",
+        "bgImage": "images/ozel-hukuk-banner.jpg",
         "h1": "ÖZEL HUKUK DAVALARI",
         "breadcrumb": ["Ana Sayfa", "ÖZEL HUKUK DAVALARI"]
       },
       "servicesDetail": {
         "heroImage": {
-          "src": "images/private-law.jpg",
+          "src": "images/ozel-hukuk.jpg",
           "alt": "ÖZEL HUKUK DAVALARI"
         },
         "heading": "Özel Hukukun Temelinde Bireysel Hakların Korunması",
