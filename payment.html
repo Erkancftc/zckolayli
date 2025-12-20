@@ -197,16 +197,21 @@
 					<div class="content-column col-lg-12">
 						<div class="inner-column">
 							<!-- Sec Title -->
-							<div class="sec-title">
-								<h2>Ödeme yapmak artık çok kolay</h2>
-								<br><h6>Lütfen Türkiye Cumhuriyeti Kimlik numaranız ya da Dosya Numaranız ile sorgulama yapınız</h6>
-								<div class="query-section"> 
-									<input type="number" name="tcno" id="tcno">
-									<input type="number" name="dosyano" id="dosyano">
-									<input type="submit" name="sorgulama" id="sorgu">
+							<div class="sec-title m-0">
+								<h2>Hukuk Bürosu Dijitalleşme Yolculuğu</h2>
+								<div class="row col-sm-12 text-center justify-content-center mx-auto mt-4">
+									
+									<div class="col p-4 inner wow fadeInLeft animated text-white"><h3>40%</h3><p>Tahsilat Hızı</p><h6 class="ff-os">2024'te başlatılan dijital ödeme entegrasyonu sonrası artış</h6>
+									</div>
+									<div class="col p-4 inner wow fadeInLeft animated text-white"><h3>95%</h3><p>Müvekkil Memnuniyeti</p><h6 class="ff-os">Geri bildirimlerde olumlu değerlendirme oranı</h6>
+									</div>
+									<div class="col p-4 inner wow fadeInLeft animated text-white"><h3>30%</h3><p>Verimlilik Artışı</p><h6 class="ff-os">İş süreçlerinde kazanım ve maliyet düşüşü</h6>
+									</div>
+									<blockquote class="digital-quote">
+										<div class="quote-text small">"Dijital dönüşüm yolculuğumuz, hem büromuzun hem de müvekkillerimizin çalışma şeklini köklü bir biçimde değiştirdi. Teknoloji sayesinde hukuki hizmetleri <br> çok daha erişilebilir ve verimli hale getirdik."</div>
+									</blockquote>
 								</div>
 							</div>
-							
 						</div>
 					</div>
 					
@@ -215,6 +220,87 @@
 		</div>
 	</section>
 	<!-- End Welcome Section -->
+	 <section class="payment">
+		<div class="container py-5">
+			<h2 class="text-center mb-5">Kart Bilgileri</h2>
+
+			<div class="row align-items-center">
+				<!-- LEFT: CARD -->
+				<div class="col-lg-5 mb-4 mb-lg-0">
+				<div class="cc-card">
+					<div class="cc-card__top">
+					<div class="cc-chip"></div>
+					<div class="cc-brand" id="cardBrandText">Kart</div>
+					</div>
+
+					<div class="cc-card__mid">
+					<div class="cc-label">card number</div>
+					<div class="cc-number" id="cardPreviewNumber">0123 4567 8910 1112</div>
+					</div>
+
+					<div class="cc-card__bottom">
+					<div>
+						<div class="cc-label">cardholder name</div>
+						<div class="cc-name" id="cardPreviewName">AHMET SEZER</div>
+					</div>
+
+					<div class="text-right">
+						<div class="cc-label">expiration</div>
+						<div class="cc-exp">
+						<span class="cc-exp__small">VALID<br>THRU ▶</span>
+						<span id="cardPreviewExp">01/23</span>
+						</div>
+					</div>
+					</div>
+				</div>
+				</div>
+
+				<!-- RIGHT: FORM -->
+				<div class="col-lg-7">
+				<form autocomplete="off" novalidate>
+					<!-- Name -->
+					<div class="form-group">
+					<label for="nameInput">İsim</label>
+					<input type="text" class="form-control" id="nameInput" placeholder="">
+					</div>
+
+					<!-- Card number + generate -->
+					<div class="form-group">
+					<div class="d-flex align-items-center justify-content-between">
+						<label class="mb-2" for="cardNumberInput">Kart Numarası</label>
+					</div>
+
+					<div class="position-relative">
+						<input type="text" class="form-control pr-5" id="cardNumberInput"
+							placeholder="0000 0000 0000 0000" maxlength="19" inputmode="numeric">
+						<div class="cc-brand-badge" id="brandBadge">Kart</div>
+					</div>
+					</div>
+
+					<!-- Exp + CVV -->
+					<div class="form-row">
+					<div class="form-group col-md-6">
+						<label for="expInput">Son Geçerlilik Tarihi (ay/yıl)</label>
+						<input type="text" class="form-control" id="expInput" placeholder="MM/YY" maxlength="5" inputmode="numeric">
+					</div>
+					<div class="form-group col-md-6">
+						<label for="cvvInput">Güvenlik Kodu</label>
+						<input type="password" class="form-control" id="cvvInput" placeholder="012" maxlength="4" inputmode="numeric">
+					</div>
+					</div>
+					<div class="btn-box pt-2">
+								<a href="#" class="theme-btn btn-style-one" target="_blank" rel="noopener noreferrer">
+									<span class="txt">Ödeme Yap</span>
+								</a>
+					</div>
+					<small class="text-muted">🔒 Ödemeler 256-bit SSL ile korunmaktadır</small>
+
+				</form>
+				</div>
+			</div>
+			</div>
+	 </section>
+	 
 	
 	<!-- Services Section Two -->
 	<section class="services-section-two style-two">
@@ -513,6 +599,8 @@
 <script src="js/nav-tool.js"></script>
 <script src="js/jquery-ui.js"></script>
 <script src="js/script.js"></script>
+<script src="js/payment.js"></script>
+
 
 </body>
 </html>

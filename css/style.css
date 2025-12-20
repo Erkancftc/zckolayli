@@ -6313,7 +6313,7 @@ img{
 	margin-bottom:12px;
 	margin-top:0px;
 }
-
+.digital-quote,
 .blog-detail .inner-box .lower-content blockquote{
 	position:relative;
 	text-align:center;
@@ -6344,7 +6344,7 @@ img{
 	background-color:#ffffff;
 	border:1px solid #e3e3e3;
 }
-
+.digital-quote,
 .blog-detail .inner-box .lower-content blockquote .quote-text{
 	position:relative;
 	color:#222222;
@@ -6697,3 +6697,155 @@ img{
 /* Yüklenme bitene kadar sayfanın tamamını gizle (breadcrumb + hero bg dahil) */
 body.js-loading .page-wrapper{ visibility:hidden; }
 body:not(.js-loading) .page-preloader{ display:none; }
+
+
+
+body > div.page-wrapper > section.case-section > div > div > div > div > div > div > div.row.col-sm-12.text-center.justify-content-center.mx-auto > div {
+	position: relative;
+    background-color: rgba(0, 30, 73, 0.9);
+    padding: 40px 20px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgba(255, 255, 255, 0.5);
+    transition: 300ms;
+
+}
+body > div.page-wrapper > section.case-section > div > div > div > div > div > div > div.row.col-sm-12.text-center.justify-content-center.mx-auto > div:hover {
+transform: all 1ms ease;
+border-color: rgb(225, 161, 34);
+
+}
+ /* Card mockup (Bootstrap 4 friendly) */
+  .cc-card{
+    height: 280px;
+    border-radius: 18px;
+    box-shadow: 0 18px 35px rgba(0,0,0,.25);
+    position: relative;
+    overflow: hidden;
+    padding: 26px;
+    color: #fff;
+    background: linear-gradient(180deg,#001e4980 0%, #001e49 55%, #001e49 100%);
+  }
+  .cc-card:before{
+    content:"";
+    position:absolute;
+    left:-20%;
+    top:40%;
+    width:160%;
+    height:80%;
+    background: rgba(0,0,0,.12);
+    border-radius: 50%;
+    transform: rotate(-8deg);
+  }
+  .cc-card__top, .cc-card__mid, .cc-card__bottom{ position: relative; z-index: 2; }
+
+  .cc-card__top{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    margin-bottom: 9%;
+  }
+  .cc-chip{
+    width: 64px;
+    height: 44px;
+    border-radius: 10px;
+    background: rgba(255,255,255,.92);
+    position: relative;
+  }
+  .cc-chip:before, .cc-chip:after{
+    content:"";
+    position:absolute;
+    left:10px; right:10px;
+    height:2px;
+    background: rgba(0,0,0,.28);
+    top:50%;
+    transform: translateY(-50%);
+  }
+  .cc-chip:after{
+    top:auto; bottom: 12px;
+    height: 2px;
+    opacity: .35;
+  }
+
+  .cc-brand{
+	  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+    font-weight: 700;
+    padding: 8px 12px;
+    border-radius: 10px;
+    font-size: 14px;
+	height: 44px;
+  }
+
+  .cc-label{
+    font-size: 14px;
+    letter-spacing: .12em;
+    opacity: .8;
+    text-transform: lowercase;
+  }
+
+  .cc-number{
+    margin-top: 8px;
+    font-size: 34px;
+    letter-spacing: .08em;
+    font-weight: 700;
+  }
+
+  .cc-card__bottom{
+    display:flex;
+    justify-content:space-between;
+    align-items:flex-end;
+    margin-top: 6%;
+  }
+
+  .cc-name{
+    margin-top: 6px;
+    font-size: 22px;
+    letter-spacing: .08em;
+    font-weight: 700;
+  }
+
+  .cc-exp{
+    margin-top: 6px;
+    font-size: 22px;
+    font-weight: 700;
+    display:flex;
+    align-items:flex-end;
+    gap: 10px;
+	text-align: start;
+  }
+  .cc-exp__small{
+    font-size: 10px;
+    line-height: 1.1;
+    opacity: .85;
+    text-transform: uppercase;
+  }
+
+  /* Brand badge inside input (right side) */
+  .cc-brand-badge{
+    position:absolute;
+    right: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 12px;
+    font-weight: 700;
+    background: #f1f3f5;
+    color:#333;
+    border-radius: 8px;
+    border: 1px solid #e5e7eb;
+    user-select:none;
+	padding:6px 10px;
+  }
+  /* Sağdaki küçük badge içindeki logo */
+.cc-brand-badge img {
+  width: auto;
+  display: block;
+}
+
+/* Soldaki kart üzerindeki logo */
+.cc-brand img {
+  width: auto;
+  display: block;
+}
