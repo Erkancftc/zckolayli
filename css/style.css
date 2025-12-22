@@ -597,6 +597,7 @@ img{
 .header-left {
   display: flex;
   justify-content: flex-end;
+  min-width: 230px;
 }
 
 /* ORTA: Menü */
