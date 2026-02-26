@@ -98,7 +98,7 @@
 		$('.mobile-nav-toggler').on('click', function() {
 			$('body').addClass('mobile-menu-visible');
 			if (!$('.mobile-menu .navigation.clearfix .card-payment').length) {
-  			$('.mobile-menu .navigation.clearfix').append('<li class="card-payment"><a href="https://pos.param.com.tr/Tahsilat/Default.aspx?k=SANA_OZEL_KOD" target="_blank">Online Ödeme</a></li>');
+  			$(".mobile-menu .navigation.clearfix").append('<li class="card-payment"><a href="https://pos.param.com.tr/Tahsilat/Default.aspx?k=EA71D78F-0F4E-4838-A7AD-AD82BB8B6B5E" target="_blank">Online Ödeme</a></li>')
 }
 		});
 
