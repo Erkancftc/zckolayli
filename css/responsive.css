@@ -735,6 +735,11 @@
 	.main-header{
 		padding-top:0px;
 	}
+	.header-left {
+		display: flex;
+		justify-content: flex-start;
+		min-width: 230px;
+		}
 	
 	.main-header .header-upper .logo-box{
 		padding:20px 0px 15px;
