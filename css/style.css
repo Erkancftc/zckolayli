@@ -1466,6 +1466,7 @@ img {
   overflow: hidden;
   padding-top: 280px;
   padding-bottom: 280px;
+  background-size: cover;
 }
 
 .banner-section .content-column {
