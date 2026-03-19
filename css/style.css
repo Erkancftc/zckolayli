@@ -3062,8 +3062,8 @@ img {
 .cta-section .inner-container .hammer-image {
   position: absolute;
   right: -80px;
-  bottom: -80px;
-  transform: rotate(-2deg);
+  bottom: -44px;
+  /* transform: rotate(-2deg); */
 }
 
 .cta-section .inner-container .image {
